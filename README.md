@@ -36,3 +36,21 @@
 > Файл *port.luac* сконвертирует профили от ScriptPatrol для SnailMatic.
 > 
 > Папка *lib* содержит все нужные для работы биндера библиотеки.
+
+После успешного запуска биндера — создастся папка с настройками и профилями биндера по пути:
+
+> *C:\Users\user\Documents\GTA San Andreas User Files\SAMP*
+
+
+## 2. Требования для биндера и его запуск
+
+### Требования
+
+Для работы биндера требуется (*установить в папку с игрой*):
+
+> [Moonloader 0.26.5+](https://www.blast.hk/threads/13305)
+
+и библиотеки Moonloader (*установить в .../moonloader/lib*):
+
+> [mimgui](https://www.blast.hk/threads/66959/#:~:text=github.com-,%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20mimgui,-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0:%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D1%8C%20%D0%BF%D0%B0%D0%BF%D0%BA%D1%83), [fa-icons](https://disk.yandex.ru/d/JlTZXDRostOp0g), [copas](https://disk.yandex.ru/d/-hnx59P2qRq-uQ), [socket](https://disk.yandex.ru/d/nJeIbYenuZQG3A)
+
