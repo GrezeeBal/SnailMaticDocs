@@ -54,3 +54,33 @@
 
 > [mimgui](https://www.blast.hk/threads/66959/#:~:text=github.com-,%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20mimgui,-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0:%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D1%8C%20%D0%BF%D0%B0%D0%BF%D0%BA%D1%83), [fa-icons](https://disk.yandex.ru/d/JlTZXDRostOp0g), [copas](https://disk.yandex.ru/d/-hnx59P2qRq-uQ), [socket](https://disk.yandex.ru/d/nJeIbYenuZQG3A)
 
+(скачивать библиотеки отдельно не нужно, всё идет в архиве с биндером)
+
+Биндер совместим с SA-MP 0.3.7 R1, R3, 0.3DL, CRMP и независим от SAMPFUNCS и CLEO.
+Работает на лаунчерах, при условии, что на них можно устанавливать моды (в частности .lua)
+
+### Запуск
+
+При успешном запуске биндера ты увидишь всплывающее уведомление справа внизу экрана. Открыть биндер — **CTRL+Z** или по команде **/sm.open**.
+
+![image](https://user-images.githubusercontent.com/71496296/152141257-71d2358e-3aaf-4633-ad66-3ab832b5a2b1.png)
+<p align="center">
+  <em>Уведомление об успешном запуске</em>
+</p>
+
+В случае, если биндер не запустился/не работает — убедись, что SnailMatic был установлен правильно, а так же в твоей сборке не присутствует антистиллер от DarkP1xel (*!0AntiStealerByDarkP1xel32.ASI*).
+
+Так же некоторые ошибки и их решения описаны здесь:
+- Известные ошибки и их решения
+
+В ином случае обратись в [тех. поддержку](https://vk.me/scriptpatrol), приложив в сообщении файл ***moonloader.log*** ( *\GTA San Andreas\moonloader\moonloader.log* )
+
+## Главное окно
+
+![image](https://user-images.githubusercontent.com/71496296/152143022-3f2cab7d-3aa5-4492-a3e2-0bff03bf8abd.png)
+
+В главном окне происходит взаимодействие с биндами (не редактирование). Отсюда же можно выйти в меню к настройкам и другим функциям.
+
+### Взаимодействие с биндами
+
+***Панель инструментов***
