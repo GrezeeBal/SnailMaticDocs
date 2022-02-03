@@ -838,7 +838,7 @@ sm.updateVariable(name, value) — обновляет значение пере�
 sm.updateVariable('targetid', 1) — обновит переменную targetid, задав ей новое значение
 ```
 
-— параметр render может быть строкой, тогда это превратится в подсказку к функциональной переменной.
+— параметр `render` может быть строкой, тогда это превратится в подсказку к функциональной переменной.
 
 И может быть функцией, которая рендерит имгуи окно, как пример:
 
@@ -901,7 +901,7 @@ stack traceback:
 (error) SnailMatic: Script died due to an error. (33B3215C)
 ```
 
-`Решение`: Удали snailmatic.json по пути `C:\Users\user\Documents\GTA San Andreas User Files\SAMP\SnailMatic`
+`Решение`: Удали snailmatic.json по пути C:/Users/user/Documents/GTA San Andreas User Files/SAMP/`SnailMatic`
 
 ## 4.
 
@@ -928,7 +928,7 @@ stack traceback:
 
 `Решение`: Установи с заменой [RakLua](https://www.blast.hk/threads/69433/) 2.1 в папку `…\moonloader\lib`.
 
-`Если не поможет`: смени параметр `hookmode` на `0`(это автономный) или `3`(это sampfuncs) в файле `C:\Users\user\Documents\GTA San Andreas User Files\SAMP\SnailMatic\snailmatic.json`
+`Если не поможет`: смени параметр `hookmode` на `0`(это автономный) или `3`(это sampfuncs) в файле C:/Users/user/Documents/GTA San Andreas User Files/SAMP/SnailMatic/`snailmatic.json`
 
 ## 6.
 
