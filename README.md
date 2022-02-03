@@ -549,8 +549,6 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
 В поле редактора вписывается любой текст и переменные, а биндер в реальном времени рисует и обрабатывает этот текст в указанном месте.
 
-</br>
-
 Имеет такие же флаги, как и в шпаргалке.
 
 ![image](https://user-images.githubusercontent.com/71496296/152433076-fcf2020a-c29f-49b2-a797-f55a4026c407.png)
@@ -632,10 +630,7 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
 С помощью данного окна можно отправлять строки бинда в любом порядке по отдельности, нажимая на них
 
-</br>
-
 Так же можно использовать для создания функциональных диалогов, которые будут активировать нужные бинды.
-
 
 <pre><code>«/sm.select [номер бинда/имя бинда]* [папка]» — открыть окно выбора отдельных строк бинда по его номеру/названию. Имеет такие же параметры, как и переменные @bindstart/stop/pause()@.
 
@@ -787,3 +782,156 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 *Результат*
 
 ![inside](https://user-images.githubusercontent.com/71496296/152436682-afad5472-187c-4958-8240-2724536d82ee.gif)
+
+## 10.8. Конвертер профилей из других биндеров
+
+Чтобы быстро перейти из другого биндера на SnailMatic мы разработали свой собственный конвертор, который перенесет профиль из другого биндера в SnailMatic.
+
+Скачать [конвертор профилей](https://disk.yandex.ru/d/thgyaUe9UdFfLA) (идет вместе с архивом биндера)
+Данный файл нужно переместить в папку moonloader и запустить игру. После он сам сконвертирует все поддерживаемые профили (список ниже) и самоудалится.
+
+После конвертации нужно переключиться на профиль в настройках биндера
+
+```
+### Для конвертации SP Lua
+Профили должны находиться по пути:
+папка с игрой*\moonloader\SP\profiles
+```
+
+```
+### Для конвертации SP AHK
+Пересохранить профиль по пути:
+Documents\GTA San Andreas User Files\SAMP\ScriptPatrol.ini в 
+"ScriptPatrol AHK.ini" с кодировкой ANSI(она же Windows1251, CP1251)
+```
+
+```
+### Для конвертации Binder by Kvas
+Профили должны находиться по пути:
+документы\GTA San Andreas User Files\SAMP\SnailMatic\profiles
+```
+
+```
+### Для конвертации Police Assistant
+Профиль должен находиться по пути:
+папка с игрой\moonloader\Police Assistant\bindlist.json
+```
+ 
+ </br>
+
+<!-- .........................ИНФОРМАЦИЯ ДЛЯ РАЗРАБОТЧИКОВ......................... -->
+# 11. Информация для разработчиков
+
+SnailMatic экспортирует некоторые функции, которые вы можете использовать чтобы написать для него плагин или дополнить свой скрипт функционалом.
+
+Для этого нужно его подключить через
+
+```
+local sm = import("snailmatic.lua")
+```
+
+В переменной sm будут находиться такие функции:
+
+```
+sm.version - получает версию биндера
+sm.updateVariable(name, value) — обновляет значение переменной
+sm.updateVariable('targetid', 1) — обновит переменную targetid, задав ей новое значение
+```
+
+— параметр render может быть строкой, тогда это превратится в подсказку к функциональной переменной.
+
+И может быть функцией, которая рендерит имгуи окно, как пример:
+
+```
+function()
+  imgui.Button("ok")
+end
+```
+
+```
+result = sm.callVariable(name, ...)— вызвать переменную, возвращается результат обработки.
+id = sm.callVariable('targetid') — получить ид текущей цели, обычная переменная
+nick = sm.callVariable('nick', 1) — получить ник по ид, функциональная переменная
+```
+
+```
+result = sm.convertString(str)— обрабатывает строку с переменными
+result = sm.convertString("hello, my name is $myname$") - "hello, my name is Yarik_Vodila"
+```
+
+```
+sm.print(...)
+```
+
+— у SM есть консоль, которая открывается на Ctrl+Ё(Ctrl+~) или командой /smconsole, выводит сообщение туда, сделано на случай если не установлен SAMPFUNCS.
+
+ </br>
+
+<!-- .........................ОШИБКИ И РЕШЕНИЯ......................... -->
+# 12. Известные ошибки и их решения
+
+## 1.
+
+```
+(error)    SnailMatic: [string "..."]:0: attempt to index a nil value
+stack traceback:
+    [string "..."]: in function <[string "..."]:0>
+    [C]: in function 'wait'
+    [string "..."]: in function <[string "..."]:0>
+```
+
+`Решение`: В настройках биндера с помощью ползунка "Режим хукинга" измени режим на любой другой. Описание режимов указаны в подсказке.
+
+## 2.
+
+```
+(error)    SnailMatic: Ошибка #1. Перезагрузка
+```
+
+`Решение`: В настройках биндера с помощью ползунка "Режим хукинга" измени режим на любой другой. Описание режимов указаны в подсказке.
+
+## 3.
+
+```
+(exception) SnailMatic: CJSON: Expected value but found T_END at character 1
+(error) SnailMatic: [string "..."]:0: attempt to index a nil value
+stack traceback:
+    [string "..."]: in function 'loadSetting'
+    [string "..."]: in function <[string "..."]:0>
+(error) SnailMatic: Script died due to an error. (33B3215C)
+```
+
+`Решение`: Удали snailmatic.json по пути `C:\Users\user\Documents\GTA San Andreas User Files\SAMP\SnailMatic`
+
+## 4.
+
+```
+(error)    SnailMatic: C:\GTA San Andreas\moonloader\lib\mimgui\imgui.lua:8: cannot load module 'C:\GTA San Andreas\moonloader\lib\mimgui\cimguidx9': Не найден указанный модуль.
+    stack traceback:
+        [C]: in function 'load'
+        C:\GTA San Andreas\moonloader\lib\mimgui\imgui.lua:8: in main chunk
+        [C]: in function 'require'
+        C:\GTA San Andreas\moonloader\lib\mimgui\init.lua:7: in main chunk
+        [C]: in function 'require'
+        [string "..."]: in function <[string "..."]:0>
+        C:\GTA San Andreas\moonloader\snailmatic.luac: in function <C:\GTA San Andreas\moonloader\snailmatic.luac:0>
+        C:\GTA San Andreas\moonloader\snailmatic.luac: in function <C:\GTA San Andreas\moonloader\snailmatic.luac:0>
+```
+
+`Решение`: Установи Microsoft Visual C++ (желательно все пакеты).
+
+## 5.
+
+```
+Игра при запуске крашится, если установлен SnailMatic
+```
+
+`Решение`: Установи с заменой [RakLua](https://www.blast.hk/threads/69433/) 2.1 в папку `…\moonloader\lib`.
+
+`Если не поможет`: смени параметр `hookmode` на `0`(это автономный) или `3`(это sampfuncs) в файле `C:\Users\user\Documents\GTA San Andreas User Files\SAMP\SnailMatic\snailmatic.json`
+
+## 6.
+
+![image](https://user-images.githubusercontent.com/71496296/152438177-18c92fc2-548f-419f-bd77-4d29d0dcb906.png)
+
+`Решение`: нет решения. Ошибка, возможно, возникает из-за старой видеокарты
