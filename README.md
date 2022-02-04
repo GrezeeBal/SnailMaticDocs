@@ -294,7 +294,7 @@
     - Параметрами в функциональных переменных выступают выражения, условия, порядковые номера, другие переменные из биндера.
     - Например, переменная `@nickrp($targetid$)@` - вернет RP ник выбранного игрока по его ID (`Vyacheslav_Kolotushkin` -> `Vyacheslav Kolotushkin`)
 
-![image](https://user-images.githubusercontent.com/71496296/152356769-d8b49af3-6be4-4f84-96c8-06a0fa68bdb0.png)
+![image](https://user-images.githubusercontent.com/71496296/152506274-773e7ae6-1724-4b24-a506-5c4f7888ad6f.png)
 
 Переменные от **ScriptPatrol Lua**, которые установлены в `moonloader/SP/variables/` в большинстве своем поддерживаются и **SnailMatic**, для этого переместите их в `Documents\GTA San Andreas User Files\SAMP\SnailMatic\variables`
 
