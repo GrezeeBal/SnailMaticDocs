@@ -195,7 +195,7 @@
 
 ![image](https://user-images.githubusercontent.com/71496296/152539880-fb9f61df-3bd0-4ece-8964-a74e11c9b0d7.png)
 
-А так же поставим на эту строку отправку «**Без отправки**», что даст указание биндеру не отправлять её никуда. Переменная в свою же очередь выполнится в любом случае и при любой отправке. Описание каждой отправки можно найти [по этой ссылке](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/README.md#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8)
+А так же поставим на эту строку отправку «**Без отправки**», что даст указание биндеру не отправлять её никуда. Переменная в свою же очередь выполнится в любом случае и при любой отправке. Описание каждой отправки можно найти [по этой ссылке](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8)
 
 ![image](https://user-images.githubusercontent.com/71496296/152540062-1a7d0252-2154-4ec4-b988-e1b06a5a4692.png)
 
