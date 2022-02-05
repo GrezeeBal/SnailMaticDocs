@@ -6,3 +6,6 @@
 
 - [Документация (гайды, инструкции) по SnailMatic](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md)
 - [Гайд по созданию биндов в SnailMatic](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/BINDS_CREATING_GUIDE.md)
+
+- [Тема на blast.hk](https://www.blast.hk/threads/102157/)
+- [Группа ВКонтакте](https://vk.com/scriptpatrol) (тех. поддержка, новости, обновления)
