@@ -4,7 +4,7 @@
 
 ## SnailMatic
 
-- [Документация (гайды, инструкции) по SnailMatic](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md)
+- [Документация по SnailMatic](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md) (инструкции, полезная информация)
 - [Гайд по созданию биндов в SnailMatic](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/BINDS_CREATING_GUIDE.md)
 
 </br>
