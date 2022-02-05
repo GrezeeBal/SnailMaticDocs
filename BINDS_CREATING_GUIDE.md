@@ -136,7 +136,7 @@
 
 ![image](https://user-images.githubusercontent.com/71496296/152538465-2a3b3e0a-91cd-4ef0-bc63-b09e9e1f68d2.png)
 
-И допишем к команде `/report` функциональную переменную [@paramcmd(1+)@](https://vk.com/@scriptpatrol-gaid-po-funkcionalnym-peremennym-v-snailmatic?anchor=paramcmd), которая будет вставлять написанный нами текст репорта:
+И допишем к команде `/report` функциональную переменную [@paramcmd(1+)@](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#paramcmd), которая будет вставлять написанный нами текст репорта:
 
 ![image](https://user-images.githubusercontent.com/71496296/152538551-5d043721-a823-44ae-ba89-1a218647bc81.png)
 
@@ -153,7 +153,7 @@
 
 ![image](https://user-images.githubusercontent.com/71496296/152538947-553f74ac-0a83-492e-b229-00ee2a5f2a62.png)
 
-А в сообщение вставляем: `/report @paramcmd(1+)@ чит`
+А в сообщение вставляем: /report [@paramcmd(1+)@](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#paramcmd) чит
 
 ![image](https://user-images.githubusercontent.com/71496296/152539023-09654a77-b408-4f5f-9730-577e93c48e52.png)
 
@@ -298,7 +298,7 @@ SMS:.+Отправитель: .+_.+ %[т%.(%d+)%]
 
 На данном этапе наш бинд теперь будет активироваться при появлении СМС в нашем чате, сейчас нам нужно сделать «автоматический ответ».
 
-Впишем в Сообщение команду отправки СМС `/sms` и допишем к ней функциональную переменную [@chatwordsex(1)@](https://vk.com/@scriptpatrol-gaid-po-funkcionalnym-peremennym-v-snailmatic?anchor=chatwordsex), которая автоматически будет подставлять телефон.
+Впишем в Сообщение команду отправки СМС `/sms` и допишем к ней функциональную переменную [@chatwordsex(1)@](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#chatwordsex), которая автоматически будет подставлять телефон.
 
 ```
 /sms @chatwordsex(1)@ 
@@ -364,7 +364,7 @@ SMS:.+Отправитель: .+_.+ %[т%.(%d+)%]
 
 ![image](https://user-images.githubusercontent.com/71496296/152640337-2598ad9c-a6f9-4ea6-b3f4-b6bf24595fd1.png)
 
-Затем к каждому сообщению добавляем переменную [@bindstart(…)@](https://vk.com/@scriptpatrol-gaid-po-funkcionalnym-peremennym-v-snailmatic?anchor=bindstart), которая будет активировать бинды с выдачей розыска. В параметр к каждой переменной вписываем соответствующее название бинда с розыском (_вписываем название в кавычках_):
+Затем к каждому сообщению добавляем переменную [@bindstart(…)@](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#bindstart), которая будет активировать бинды с выдачей розыска. В параметр к каждой переменной вписываем соответствующее название бинда с розыском (_вписываем название в кавычках_):
 
 ![image](https://user-images.githubusercontent.com/71496296/152640407-3b6e79df-7203-4889-b833-e63fc3c65510.png)
 
@@ -401,7 +401,7 @@ SMS:.+Отправитель: .+_.+ %[т%.(%d+)%]
 
 Не знаю зачем, но мне вдруг понадобился флудер, который будет сам нажимать на клавишу `W`. Это будет происходить до того момента, пока я его не остановлю
 
-В новом бинде в поле Сообщение мы вписываем функциональную переменную [@keyemulate(87)@](https://vk.com/@scriptpatrol-gaid-po-funkcionalnym-peremennym-v-snailmatic?anchor=keyemulate), которая будет нажимать на клавишу `W`. Так же поставим отправку этой строки на «**Не отправлять**», так как переменная в строке не содержит текста.
+В новом бинде в поле Сообщение мы вписываем функциональную переменную [@keyemulate(87)@](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#keyemulate), которая будет нажимать на клавишу `W`. Так же поставим отправку этой строки на «**Не отправлять**», так как переменная в строке не содержит текста.
 
 ![image](https://user-images.githubusercontent.com/71496296/152640560-9471346c-8214-460a-b164-3ad1815da533.png)
 
@@ -458,11 +458,11 @@ SMS:.+Отправитель: .+_.+ %[т%.(%d+)%]
 
 ![image](https://user-images.githubusercontent.com/71496296/152640677-e8a5d660-256b-43ca-adec-20aaa1daa8c1.png)
 
-Далее в сообщение мы вставим переменную [@bindstart(…)@](https://vk.com/@scriptpatrol-gaid-po-funkcionalnym-peremennym-v-snailmatic?anchor=bindstart), которая будет запускать один из биндов с отыгровками ареста и поставим на неё отправку «**Не отправлять**», так как строка не содержит в себе никакого текста:
+Далее в сообщение мы вставим переменную [@bindstart(…)@](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#bindstart), которая будет запускать один из биндов с отыгровками ареста и поставим на неё отправку «**Не отправлять**», так как строка не содержит в себе никакого текста:
 
 ![image](https://user-images.githubusercontent.com/71496296/152640683-d3b8d125-25af-4b4b-9659-903574fdd0f3.png)
 
-Чтобы указать этой переменной, что она должна запускать случайный бинд, мы будем использовать переменную [@random(…)@](https://vk.com/@scriptpatrol-gaid-po-funkcionalnym-peremennym-v-snailmatic?anchor=random), которая генерирует случайные числа.
+Чтобы указать этой переменной, что она должна запускать случайный бинд, мы будем использовать переменную [@random(…)@](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#random), которая генерирует случайные числа.
 
 В параметр переменной `@random` мы вставим номера наших биндов с арестом, у меня это бинды с «**13**» по «**18**» номер. _Чтобы быстро узнать номер бинда — нажми на него СКМ в главном окне:_
 
