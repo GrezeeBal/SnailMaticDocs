@@ -6,6 +6,7 @@
 
 - [Документация по SnailMatic](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md) (инструкции, полезная информация)
 - [Гайд по созданию биндов в SnailMatic](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/BINDS_CREATING_GUIDE.md)
+- [Гайд по функциональным переменным в SnailMatic](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md)
 
 </br>
 
