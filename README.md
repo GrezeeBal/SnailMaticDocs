@@ -773,7 +773,7 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
 ## 10.7. Сокращение команд, фраз, текста
 
-> [Несколько примеров с использованием этого функционала](https://vk.com/@scriptpatrol-gaid-po-sozdaniu-bindov?anchor=bystry-report-s-pomoschyu-sokraschennoy-komandy)
+> [Несколько примеров с использованием этого функционала](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/BINDS_CREATING_GUIDE.md#4-%D1%81%D0%BE%D0%BA%D1%80%D0%B0%D1%89%D0%B0%D0%B5%D0%BC-%D1%84%D1%80%D0%B0%D0%B7%D1%83)
 
 Бинды в SnailMatic можно активировать командами, которым необязательно содержать в начале себя слэши или какие-нибудь другие знаки. Таким образом через бинды можно сокращать нужные команды, фразы и текст.
 
