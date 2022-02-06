@@ -857,7 +857,8 @@ nick = sm.callVariable('nick', 1) — получить ник по ид, фун�
 ```
 
 ```
-result = sm.convertString(str)— обрабатывает строку с переменными
+result = sm.convertString(str) — обрабатывает строку с переменными
+
 result = sm.convertString("hello, my name is $myname$") - "hello, my name is Yarik"
 ```
 
