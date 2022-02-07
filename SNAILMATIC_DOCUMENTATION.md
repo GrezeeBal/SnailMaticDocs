@@ -861,6 +861,17 @@ function()
   imgui.Button("ok")
 end
 ```
+Пример по регистрации новой функциональной переменной:
+
+```Lua
+registerFunctionalVariable('time+min', 'Текущее время + указанное время, MM:SS', function(param)
+    local min, sec = param:match('(%d+):(%d+)')
+    min, sec = tonumber(min), tonumber(sec)
+    return os.date("%H:%M:%S", os.time() + (min*60) + sec)
+end)
+-- создаёт функциональную переменную, которая добавляет к текущему времени время указанное в параметре переменной в формате МИНУТЫ:СЕКУНДЫ
+```
+
 
 ```Lua
 result = sm.callVariable(name, ...) -- вызвать переменную, возвращается результат обработки.
