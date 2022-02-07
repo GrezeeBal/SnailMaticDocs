@@ -866,7 +866,7 @@ end
 Пример по регистрации новой функциональной переменной:
 
 ```Lua
-registerFunctionalVariable('time+min', 'Текущее время + указанное время, MM:SS', function(param)
+sm.registerFunctionalVariable('time+min', 'Текущее время + указанное время, MM:SS', function(param)
     local min, sec = param:match('(%d+):(%d+)')
     min, sec = tonumber(min), tonumber(sec)
     return os.date("%H:%M:%S", os.time() + (min*60) + sec)
