@@ -55,7 +55,7 @@
 
 и библиотеки Moonloader (*установить в* `.../moonloader/lib`):
 
-> [mimgui](https://www.blast.hk/threads/66959/#:~:text=github.com-,%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20mimgui,-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0:%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D1%8C%20%D0%BF%D0%B0%D0%BF%D0%BA%D1%83), [fa-icons](https://disk.yandex.ru/d/JlTZXDRostOp0g), [copas](https://disk.yandex.ru/d/-hnx59P2qRq-uQ), [socket](https://disk.yandex.ru/d/nJeIbYenuZQG3A)
+> [mimgui](https://github.com/THE-FYP/mimgui/releases/download/v1.7.0/mimgui-v1.7.0.zip), [fa-icons](https://disk.yandex.ru/d/JlTZXDRostOp0g), [copas](https://disk.yandex.ru/d/-hnx59P2qRq-uQ), [socket](https://disk.yandex.ru/d/nJeIbYenuZQG3A)
 
 *скачивать библиотеки отдельно не нужно, всё идет в архиве с биндером*
 
