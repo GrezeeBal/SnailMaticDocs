@@ -36,7 +36,7 @@
 
 [Google Drive](https://drive.google.com/file/d/1OiasRtkKGK2_-Zm7DhIQ3CRCckfhYlVc/view) | [Yandex.Disk](https://disk.yandex.ru/d/FfHdxTfRx52dJw)
 
-- Все файлы из архива переместить в папку `moonloader`.
+- Все файлы из папки SnailMatic переместить в папку `moonloader`.
 - Файл `port.luac` сконвертирует профили от ScriptPatrol для SnailMatic.
 - Папка `lib` содержит все нужные для работы биндера библиотеки.
 
