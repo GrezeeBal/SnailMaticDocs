@@ -32,7 +32,9 @@
 <!-- .........................УСТАНОВКА......................... -->
 # 1. Установка
 
-[Ручная установка](https://disk.yandex.ru/d/FfHdxTfRx52dJw) - .rar архив
+### Ручная установка — .rar архив
+
+[Google Drive](https://drive.google.com/file/d/1OiasRtkKGK2_-Zm7DhIQ3CRCckfhYlVc/view) | [Yandex.Disk](https://disk.yandex.ru/d/FfHdxTfRx52dJw)
 
 - Все файлы из архива переместить в папку `moonloader`.
 - Файл `port.luac` сконвертирует профили от ScriptPatrol для SnailMatic.
@@ -56,6 +58,8 @@
 и библиотеки Moonloader (*установить в* `.../moonloader/lib`):
 
 > [mimgui](https://github.com/THE-FYP/mimgui/releases/download/v1.7.0/mimgui-v1.7.0.zip), [fa-icons](https://disk.yandex.ru/d/JlTZXDRostOp0g), [copas](https://disk.yandex.ru/d/-hnx59P2qRq-uQ), [socket](https://disk.yandex.ru/d/nJeIbYenuZQG3A)
+> 
+> (Google Drive) [fa-icons](https://drive.google.com/file/d/1F_92YOGjzavRPDo9oRoAUV6GWrwoLpNi/view), [copas](https://drive.google.com/file/d/1d7bUqdDBOm6ASKQc9jgMhtRBT2kPx4J8/view), [socket](https://drive.google.com/file/d/1TuGRmHT0cB4bMdgO9LaW0cuNk7NdpJ8p/view)
 
 *скачивать библиотеки отдельно не нужно, всё идет в архиве с биндером*
 
@@ -66,7 +70,7 @@
 
 При успешном запуске биндера ты увидишь всплывающее уведомление справа внизу экрана. Открыть биндер — `CTRL+Z` или по команде `/sm.open`.
 
-![image](https://user-images.githubusercontent.com/71496296/152141257-71d2358e-3aaf-4633-ad66-3ab832b5a2b1.png)
+![zapusk](https://user-images.githubusercontent.com/71496296/153750631-4dc07872-d339-4c29-985e-45d2f9c3775b.png)
 
 В случае, если биндер не запустился/не работает — убедись, что SnailMatic был установлен правильно, а так же в твоей сборке не присутствует антистиллер от DarkP1xel (`!0AntiStealerByDarkP1xel32.ASI`).
 
