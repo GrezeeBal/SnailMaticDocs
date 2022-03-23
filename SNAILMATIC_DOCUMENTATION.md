@@ -924,24 +924,38 @@ sm.print(...)
 ## 1.
 
 ```
-(error)    SnailMatic: [string "..."]:0: attempt to index a nil value
-stack traceback:
-    [string "..."]: in function <[string "..."]:0>
-    [C]: in function 'wait'
-    [string "..."]: in function <[string "..."]:0>
+Биндер не запускается с помощью CTRL+Z или команды /sm.open
 ```
 
-`Решение`: В настройках биндера с помощью ползунка "Режим хукинга" измени режим на любой другой. Описание режимов указаны в подсказке.
+`Решение`: Установи все библиотеки по ссылкам выше (см. Требования для работы). Для подробной информации об ошибках - открой текстовый документ _...\moonloader\moonloader.log_ и в строчке `(error) SnailMatic:` - прочитай ошибку.
 
 ## 2.
+
+```
+Игра при запуске крашится, если установлен SnailMatic
+```
+
+`Решение`: Установи с заменой [RakLua](https://www.blast.hk/threads/69433/) 2.1 в папку `…\moonloader\lib`.
+
+`Решение 2`: смени параметр `hookmode` на `0`(это автономный) или `3`(это sampfuncs) в файле C:/Users/user/Documents/GTA San Andreas User Files/SAMP/SnailMatic/`snailmatic.json`
+
+## 3.
+
+```
+Биндер ведёт себя очень нестабильно, бинды не проигрываются полностью, биндер перезагружается
+```
+
+`Решение`: В настройках биндера с помощью ползунка "Режим хукинга" измени режим на любой другой. Описание режимов указаны в подсказке. Самый стабильный режим - SAMPFUNCS (наличине SAMPFUNCS обязательно).
+
+## 4.
 
 ```
 (error)    SnailMatic: Ошибка #1. Перезагрузка
 ```
 
-`Решение`: В настройках биндера с помощью ползунка "Режим хукинга" измени режим на любой другой. Описание режимов указаны в подсказке.
+`Решение`: В настройках биндера с помощью ползунка "Режим хукинга" измени режим на любой другой. Описание режимов указаны в подсказке. Самый стабильный режим - SAMPFUNCS (наличине SAMPFUNCS обязательно).
 
-## 3.
+## 5.
 
 ```
 (exception) SnailMatic: CJSON: Expected value but found T_END at character 1
@@ -954,7 +968,7 @@ stack traceback:
 
 `Решение`: Удали snailmatic.json по пути C:/Users/user/Documents/GTA San Andreas User Files/SAMP/`SnailMatic`
 
-## 4.
+## 6.
 
 ```
 (error)    SnailMatic: C:\GTA San Andreas\moonloader\lib\mimgui\imgui.lua:8: cannot load module 'C:\GTA San Andreas\moonloader\lib\mimgui\cimguidx9': Не найден указанный модуль.
@@ -971,18 +985,8 @@ stack traceback:
 
 `Решение`: Установи Microsoft Visual C++ (желательно все пакеты).
 
-## 5.
-
-```
-Игра при запуске крашится, если установлен SnailMatic
-```
-
-`Решение`: Установи с заменой [RakLua](https://www.blast.hk/threads/69433/) 2.1 в папку `…\moonloader\lib`.
-
-`Если не поможет`: смени параметр `hookmode` на `0`(это автономный) или `3`(это sampfuncs) в файле C:/Users/user/Documents/GTA San Andreas User Files/SAMP/SnailMatic/`snailmatic.json`
-
-## 6.
+## 7.
 
 ![image](https://user-images.githubusercontent.com/71496296/152438177-18c92fc2-548f-419f-bd77-4d29d0dcb906.png)
 
-`Решение`: нет решения. Ошибка, возможно, возникает из-за старой видеокарты
+`Решение`: нет решения. Ошибка возникает из-за старой видеокарты, которая не в состоянии обработать большой атлас шрифтов.
