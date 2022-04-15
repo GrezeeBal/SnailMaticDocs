@@ -61,7 +61,7 @@
 > 
 > (Google Drive) [fa-icons](https://drive.google.com/file/d/1F_92YOGjzavRPDo9oRoAUV6GWrwoLpNi/view), [copas](https://drive.google.com/file/d/1d7bUqdDBOm6ASKQc9jgMhtRBT2kPx4J8/view), [socket](https://drive.google.com/file/d/1TuGRmHT0cB4bMdgO9LaW0cuNk7NdpJ8p/view)
 
-*скачивать библиотеки отдельно не нужно, всё идет [в архиве с биндером](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#1-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0)*
+*скачивать библиотеки отдельно не нужно, всё идет в архиве с биндером ([1.Установка]((https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#1-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0)))*
 
 Биндер совместим с SA-MP 0.3.7 R1, R3, 0.3DL, CRMP и независим от SAMPFUNCS и CLEO.
 Работает на лаунчерах, при условии, что на них можно устанавливать моды (в частности .lua)
@@ -74,7 +74,7 @@
 
 ![zapusk](https://user-images.githubusercontent.com/71496296/153750631-4dc07872-d339-4c29-985e-45d2f9c3775b.png)
 
-В случае, если биндер не запустился/не работает — установи все библиотеки по ссылкам выше (см. [Требования](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)). Для подробной информации об ошибках - открой текстовый документ *...\moonloader\moonloader.log* и в строчке `(error) SnailMatic:` - прочитай ошибку.
+В случае, если биндер не запустился/не работает — установи все библиотеки по ссылкам выше (2. [Требования](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)). Для подробной информации об ошибках - открой текстовый документ *...\moonloader\moonloader.log* и в строчке `(error) SnailMatic:` - прочитай ошибку.
 
 Так же некоторые ошибки и их решения описаны здесь:
 > 12. [Известные ошибки и их решения](#12-известные-ошибки-и-их-решения)
