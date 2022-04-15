@@ -74,7 +74,7 @@
 
 ![zapusk](https://user-images.githubusercontent.com/71496296/153750631-4dc07872-d339-4c29-985e-45d2f9c3775b.png)
 
-В случае, если биндер не запустился/не работает — установи все библиотеки по ссылкам выше (см. [Требования для биндера и его запуск](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)). Для подробной информации об ошибках - открой текстовый документ *...\moonloader\moonloader.log* и в строчке `(error) SnailMatic:` - прочитай ошибку.
+В случае, если биндер не запустился/не работает — установи все библиотеки по ссылкам выше (см. [Требования](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)). Для подробной информации об ошибках - открой текстовый документ *...\moonloader\moonloader.log* и в строчке `(error) SnailMatic:` - прочитай ошибку.
 
 Так же некоторые ошибки и их решения описаны здесь:
 > 12. [Известные ошибки и их решения](#12-известные-ошибки-и-их-решения)
