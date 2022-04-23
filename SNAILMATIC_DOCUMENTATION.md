@@ -964,6 +964,14 @@ sm.print(...)
 ## 5.
 
 ```
+(error)    SnailMatic: Ошибка #3. Возможное решение: смена DNS или установка VPN
+```
+
+`Решение`: Решение указано в самой ошибке. Биндеру что-то блокирует попытку отправить запрос на свой сервер, например антистиллер, кривой DNS провайдера или блокировка хоста биндера со стороны провайдера. На работоспособность биндера это никак не влияет.
+
+## 6.
+
+```
 (exception) SnailMatic: CJSON: Expected value but found T_END at character 1
 (error) SnailMatic: [string "..."]:0: attempt to index a nil value
 stack traceback:
@@ -974,7 +982,7 @@ stack traceback:
 
 `Решение`: Удали snailmatic.json по пути C:/Users/user/Documents/GTA San Andreas User Files/SAMP/`SnailMatic`
 
-## 6.
+## 7.
 
 ```
 (error)    SnailMatic: C:\GTA San Andreas\moonloader\lib\mimgui\imgui.lua:8: cannot load module 'C:\GTA San Andreas\moonloader\lib\mimgui\cimguidx9': Не найден указанный модуль.
@@ -991,7 +999,7 @@ stack traceback:
 
 `Решение`: Установи Microsoft Visual C++ (желательно все пакеты).
 
-## 7.
+## 8.
 
 ```
 Белые квадраты вместо шрифта
