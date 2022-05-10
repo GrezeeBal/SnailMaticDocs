@@ -843,13 +843,17 @@ Documents\GTA San Andreas User Files\SAMP\ScriptPatrol.ini в
 <!-- .........................ИНФОРМАЦИЯ ДЛЯ РАЗРАБОТЧИКОВ......................... -->
 # 11. Информация для разработчиков
 
-SnailMatic экспортирует некоторые функции, которые вы можете использовать чтобы написать для него плагин или дополнить свой скрипт функционалом.
+SnailMatic экспортирует некоторые свои функции, которые вы можете использовать чтобы написать для него плагин или дополнить свой скрипт функционалом. Их полезность заключается в том, что они не используют `SAMPFUNCS` и написаны одновременно под `R1/R3/03DL`.
 
-Для этого нужно его подключить через
+Плагины для SM можно делать в виде отдельных скриптов через папку moonloader, а так же через встроенную систему подгрузки дополнительных переменных (скриптов) через папку Документы\GTA San Andreas User Files\SAMP\SnailMatic\variables.
+
+Для скриптов в moonloader функции нужно будет подключить через:
 
 ```Lua
 local sm = import("snailmatic.lua")
 ```
+
+Для скриптов через SnailMatic\variables отдельно подключать ничего не нужно, как и использовать переменную `sm.`.
 
 В переменной `sm` будут находиться такие функции:
 
@@ -921,6 +925,43 @@ sm.print(...)
 ```
 
 — у SM есть консоль, которая открывается на Ctrl+Ё(Ctrl+~) или командой /smconsole, выводит сообщение туда, сделано на случай если не установлен SAMPFUNCS.
+
+<details>
+  <summary markdown="span">Аналоги функций SAMPFUNCS, работающие на R1/R3/03DL</summary>
+  
+```Lua
+sm.samp_getCurrentServerName
+sm.samp_getPlayerIdByNickname
+sm.samp_setCurrentWeaponHook
+sm.samp_addChatMessageHook
+sm.samp_getPlayerPing
+sm.samp_getCharHandleBySampPlayerId
+sm.samp_getPlayerIdByCharHandle
+sm.samp_getPlayerScore
+sm.samp_sendRPCHook
+sm.samp_updatePlayers
+sm.samp_getLocalPlayerNick
+sm.samp_isDialogActive
+sm.samp_addChatMessageEx
+sm.samp_sendChat
+sm.samp_isChatInputActive
+sm.samp_getPlayerColor
+sm.samp_getCurrentDialogId
+sm.samp_getDialogText
+sm.samp_setCurrentDialogListItem
+sm.samp_closeCurrentDialogWithButton
+sm.samp_getPlayerNickname
+sm.samp_getLocalPlayerId
+sm.samp_processInput
+sm.samp_setChatInputText
+sm.samp_setChatInputEnabled
+sm.samp_setInputBoxCursor
+sm.samp_addChatMessage
+sm.samp_setCurrentDialogEditboxText
+sm.samp_isPlayerConnected
+```
+
+</details>
 
  </br>
 
