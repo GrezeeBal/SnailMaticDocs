@@ -43,3 +43,9 @@
 - `$armynick$` - пишет все РП ники военнослужащих рядом с тобой в радиусе 5 метров
 
 > При желании переменную можно переделать под себя: в строчках `--Скины армии` можно добавить или убрать иды скинов (не обязательно армии), на которых будет реагировать переменная. Так же можно изменить радиус с 5 метров на любой другой в строчках `local radius = 5`
+
+### [$targetvehcolor$](https://github.com/GrezeeBal/SnailMaticDocs/files/8682168/vehColor.zip)
+
+Пишет цвет автомобиля выбранного игрока [(таргета)](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#6-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80-%D1%86%D0%B5%D0%BB%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-target) на русском языке в родительном падеже
+
+> $targetcar$ $targetvehcolor$ цвета -> Bravura красного цвета
