@@ -293,7 +293,7 @@
 
 > [Полная инструкция по функциональным переменным](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md)
 
-> [Сборник дополнительных переменных, которых нет в стандартном наборе (vk.com)](https://vk.com/topic-142775990_39081706)
+> [Сборник дополнительных переменных, которых нет в стандартном наборе](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/ADDITIONAL_VARIABLES.md)
 
 - Переменная (в SnailMatic) — маленький внутренний скрипт, который возвращает определенную функцию, текст.
 - В стандартном наборе SnailMatic находится около 80-ти переменных.
