@@ -14,7 +14,7 @@
 
 ## Переменные
 
-### [@nickru(...)@](https://github.com/GrezeeBal/SnailMaticDocs/files/8681304/nickru.zip)
+### [@nickru(...)@](https://github.com/GrezeeBal/SnailMaticDocs/files/8681685/nickru.zip)
 
 Переводит указанный в параметре ник на русский язык по иду/нику
 
