@@ -12,4 +12,4 @@
 </br>
 
 - [Тема на blast.hk](https://www.blast.hk/threads/102157/)
-- [Группа ВКонтакте](https://vk.com/scriptpatrol) (тех. поддержка(закрыта с марта 2022), новости, обновления)
+- [Группа ВКонтакте](https://vk.com/scriptpatrol) (новости, обновления)
