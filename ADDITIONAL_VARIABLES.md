@@ -20,7 +20,7 @@
 
 > @nickru(Yarik_Vodila)@ -> Ярик Водила
 
-### [@timemin(...)@](https://github.com/GrezeeBal/SnailMaticDocs/files/8681331/timemin.zip)
+### [@time+min(...)@](https://github.com/GrezeeBal/SnailMaticDocs/files/8681331/timemin.zip)
 
 Добавляет к текущему времени указанное кол-во времени в формате МИНУТЫ:СЕКУНДЫ
 
