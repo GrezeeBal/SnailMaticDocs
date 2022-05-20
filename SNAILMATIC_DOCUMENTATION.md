@@ -36,13 +36,13 @@
 
 [Google Drive](https://drive.google.com/file/d/1OiasRtkKGK2_-Zm7DhIQ3CRCckfhYlVc/view) | [Yandex.Disk](https://disk.yandex.ru/d/FfHdxTfRx52dJw)
 
-- Все файлы из папки `SnailMatic` переместить в папку `moonloader`.
-- Файл `port.luac` сконвертирует профили от ScriptPatrol для SnailMatic.
-- Папка `lib` содержит все нужные для работы биндера библиотеки.
+- Все файлы из папки **SnailMatic** переместить в папку **moonloader**.
+- Файл **port.luac** сконвертирует профили от ScriptPatrol для SnailMatic.
+- Папка **lib** содержит все нужные для работы биндера библиотеки.
 
 После успешного запуска биндера — создастся папка с настройками и профилями биндера по пути:
 
-`C:\Users\user\Documents\GTA San Andreas User Files\SAMP`
+_C:\Users\user\Documents\GTA San Andreas User Files\SAMP_
 
 </br>
 
@@ -55,15 +55,16 @@
 
 > [Moonloader 0.26.5+](https://www.blast.hk/threads/13305)
 
-и библиотеки Moonloader (*установить в* `.../moonloader/lib`):
+и библиотеки Moonloader (_установить в **.../moonloader/lib**_):
 
 > [mimgui](https://github.com/THE-FYP/mimgui/releases/download/v1.7.0/mimgui-v1.7.0.zip), [fa-icons](https://disk.yandex.ru/d/JlTZXDRostOp0g), [copas](https://disk.yandex.ru/d/-hnx59P2qRq-uQ), [socket](https://disk.yandex.ru/d/nJeIbYenuZQG3A)
 > 
 > (Google Drive) [fa-icons](https://drive.google.com/file/d/1F_92YOGjzavRPDo9oRoAUV6GWrwoLpNi/view), [copas](https://drive.google.com/file/d/1d7bUqdDBOm6ASKQc9jgMhtRBT2kPx4J8/view), [socket](https://drive.google.com/file/d/1TuGRmHT0cB4bMdgO9LaW0cuNk7NdpJ8p/view)
 
-*скачивать библиотеки отдельно не нужно, всё идет в архиве с биндером ([1. Установка](#1-установка))*
+Cкачивать библиотеки отдельно не нужно, всё идет в архиве с биндером ([1. Установка](#1-установка))
 
 Биндер совместим с SA-MP 0.3.7 R1, R3, 0.3DL, CRMP и независим от SAMPFUNCS и CLEO.
+
 Работает на лаунчерах, при условии, что на них можно устанавливать моды (в частности .lua)
 
 ## Запуск
@@ -71,8 +72,7 @@
 При успешном запуске биндера ты увидишь всплывающее уведомление справа внизу экрана. 
 
 ### Открыть биндер — `CTRL+Z` или по команде `/sm.open`.
-
-![zapusk](https://user-images.githubusercontent.com/71496296/153750631-4dc07872-d339-4c29-985e-45d2f9c3775b.png)
+<img src="https://user-images.githubusercontent.com/71496296/153750631-4dc07872-d339-4c29-985e-45d2f9c3775b.png" width="700">
 
 В случае, если биндер не запустился/не работает — установи все библиотеки по ссылкам выше ([2. Требования](#2-требования-для-биндера-и-его-запуск)). 
 
@@ -305,8 +305,6 @@
 
 ![image](https://user-images.githubusercontent.com/71496296/152506274-773e7ae6-1724-4b24-a506-5c4f7888ad6f.png)
 
-Переменные от **ScriptPatrol Lua**, которые установлены в `moonloader/SP/variables/` в большинстве своем поддерживаются и **SnailMatic**, для этого переместите их в `Documents\GTA San Andreas User Files\SAMP\SnailMatic\variables`
-
 </br>
 
 <!-- .........................ВЫБОР ЦЕЛИ......................... -->
@@ -369,7 +367,7 @@ $targetnick$ - полный ник выбранного игрока
 
 <pre><code>@targetset(id/nick)@</code></pre>
 
-`@targetset($closestidtocenter$)@`:
+Пример `@targetset($closestidtocenter$)@`:
 
 https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-8be7-40b1ab1031fb.mp4
 
@@ -434,11 +432,11 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
 Так же профили можно устанавливать от других пользователей. Сборник профилей [находится здесь (vk.com)](https://vk.com/topic-142775990_39480277)
 
-Чтобы добавлять профили через проводник во время игры нужно - перезагружать биндер (`/sm.reload`). Профили находятся по адресу `C:\Users\user\Documents\GTA San Andreas User Files\SAMP\SnailMatic\profiles`
+Чтобы добавлять профили через проводник во время игры нужно - перезагружать биндер (`/sm.reload`). Профили находятся по адресу _Documents\GTA San Andreas User Files\SAMP\SnailMatic\profiles_
 
 ### Редактор отыгровки оружия
 
-![image](https://user-images.githubusercontent.com/71496296/152430269-7e5a6523-13b4-4f7f-8130-81c1fbb466dd.png)
+<img src="https://user-images.githubusercontent.com/71496296/152430269-7e5a6523-13b4-4f7f-8130-81c1fbb466dd.png" width="800">
 
 *«Оружие»*
 
@@ -484,11 +482,11 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
 *Исполняющий файл биндера*
 
-> `«\GTA San Andreas\moonloader\snailmatic.luac»`
+> \GTA San Andreas\moonloader\snailmatic.luac
 
 *Настройки и профили биндера*
 
-> `C:\Users\user\Documents\GTA San Andreas User Files\SAMP\SnailMatic`
+> \Documents\GTA San Andreas User Files\SAMP\SnailMatic
 
 </br>
 
@@ -527,7 +525,7 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
 — можно быстро открыть просмотр созданной шпаргалки.
 
-![image](https://user-images.githubusercontent.com/71496296/152432476-c92b077b-463d-4192-9a12-31b9aa380d1b.png)
+<img src="https://user-images.githubusercontent.com/71496296/152432476-c92b077b-463d-4192-9a12-31b9aa380d1b.png" width="800">
 
 В этом же окне можно скопировать строку с помощью нажатия ЛКМ на неё, переключаться между шпаргалками и найти нужный текст с помощью кнопки поиска сверху окна. Так же это окно можно масштабировать.
 
@@ -841,7 +839,7 @@ Documents\GTA San Andreas User Files\SAMP\ScriptPatrol.ini в
 
 SnailMatic экспортирует некоторые свои функции, которые вы можете использовать чтобы написать для него плагин или дополнить свой скрипт функционалом. Их полезность заключается в том, что они не используют `SAMPFUNCS` и написаны одновременно под `R1/R3/03DL`.
 
-Плагины для SM можно делать в виде отдельных скриптов через папку moonloader, а так же через встроенную систему подгрузки дополнительных переменных (скриптов) через папку Документы\GTA San Andreas User Files\SAMP\SnailMatic\variables.
+Плагины для SM можно делать в виде отдельных скриптов через папку moonloader, а так же через встроенную систему подгрузки дополнительных переменных (скриптов) через папку _Документы\GTA San Andreas User Files\SAMP\SnailMatic\variables_.
 
 Для скриптов в moonloader функции нужно будет подключить через:
 
@@ -923,7 +921,7 @@ sm.print(...)
 — у SM есть консоль, которая открывается на Ctrl+Ё(Ctrl+~) или командой /smconsole, выводит сообщение туда, сделано на случай если не установлен SAMPFUNCS.
 
 <details>
-  <summary markdown="span">Аналоги функций SAMPFUNCS, работающие на R1/R3/03DL</summary>
+  <summary markdown="span">Аналоги функций SAMPFUNCS</summary>
   
 ```Lua
 sm.samp_getCurrentServerName
