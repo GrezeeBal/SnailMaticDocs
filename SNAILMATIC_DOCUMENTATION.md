@@ -42,7 +42,7 @@
 
 После успешного запуска биндера — создастся папка с настройками и профилями биндера по пути:
 
-_C:\Users\user\Documents\GTA San Andreas User Files\SAMP_
+_C:\Users\user\Documents\GTA San Andreas User Files\SAMP\SnailMatic_
 
 </br>
 
@@ -531,12 +531,12 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
 </br>
 
-<!-- .........................КОНСТРУКТОР HUD......................... -->
+<!-- .........................КОНСТРУКТОР ВИДЖЕТА......................... -->
 # 9. Конструктор HUD
 
 Система, которая рендерит любой текст и переменные на экран.
 
-![image](https://user-images.githubusercontent.com/71496296/152432562-7ec0e539-dfe6-4606-b78a-b50bb51dcd3a.png)
+![hud](https://user-images.githubusercontent.com/71496296/170084951-2e9142db-f56e-4b0b-b376-69f79d4f0bf1.gif)
 
 *«Показать/скрыть»*
 
