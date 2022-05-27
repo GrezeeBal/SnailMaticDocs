@@ -26,7 +26,7 @@
 
 > @time+min(13:27)@ - добавит к текущему времени 13 минут и 27 секунд (00:55:21 > 01:08:48)
 
-### [$cops...$](https://github.com/GrezeeBal/SnailMaticDocs/files/8681411/cops.zip)
+### [$cops...](https://github.com/GrezeeBal/SnailMaticDocs/files/8681411/cops.zip)
 
 - `$copsid$` - пишет все иды полицейских рядом с тобой в радиусе 5 метров
 - `$copsname$` - пишет все имена полицейских рядом с тобой в радиусе 5 метров
@@ -35,7 +35,7 @@
 
 > При желании переменную можно переделать под себя: в строчках `--Скины полицейских` можно добавить или убрать иды скинов (не обязательно полицейских), на которых будет реагировать переменная. Так же можно изменить радиус с 5 метров на любой другой в строчках `local radius = 5`
 
-### [$army...$](https://github.com/GrezeeBal/SnailMaticDocs/files/8681483/army.zip)
+### [$army...](https://github.com/GrezeeBal/SnailMaticDocs/files/8681483/army.zip)
 
 - `$armyid$` - пишет все иды военнослужащих рядом с тобой в радиусе 5 метров
 - `$armyname$` - пишет все имена военнослужащих рядом с тобой в радиусе 5 метров
@@ -44,8 +44,8 @@
 
 > При желании переменную можно переделать под себя: в строчках `--Скины армии` можно добавить или убрать иды скинов (не обязательно армии), на которых будет реагировать переменная. Так же можно изменить радиус с 5 метров на любой другой в строчках `local radius = 5`
 
-### [$targetvehcolor$](https://github.com/GrezeeBal/SnailMaticDocs/files/8682168/vehColor.zip)
+### [$targetvehcolor](https://github.com/GrezeeBal/SnailMaticDocs/files/8682168/vehColor.zip)
 
 Пишет цвет автомобиля выбранного игрока [(таргета)](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#6-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80-%D1%86%D0%B5%D0%BB%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-target) на русском языке в родительном падеже
 
-> \$targetcar$ $targetvehcolor$ цвета -> Bravura красного цвета
+> $targetcar $targetvehcolor цвета -> Bravura красного цвета
