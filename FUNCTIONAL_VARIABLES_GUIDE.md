@@ -615,7 +615,7 @@ _Результат:_
 
 ![image](https://user-images.githubusercontent.com/71496296/175749922-1eebf46b-a7ea-44d9-a112-0165df50adf7.png)
 
-Добавим рядом с ником в квадратные скобки его ид: `{FFFFFF}[@paramcmd(1)]`
+Добавим рядом с ником в квадратные скобки его ид: `{FFFFFF}[@paramcmd(1)@]`
 
 ![image](https://user-images.githubusercontent.com/71496296/175750083-01609bb2-d74b-40ed-9ba3-d697f5a3249f.png)
 
