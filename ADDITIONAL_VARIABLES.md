@@ -1,4 +1,4 @@
-Обновлено 12.05.2022
+Обновлено 15.07.2022
 
 ## Дополнительные переменные для SnailMatic
 
@@ -49,3 +49,9 @@
 Пишет цвет автомобиля выбранного игрока [(таргета)](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#6-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80-%D1%86%D0%B5%D0%BB%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-target) на русском языке в родительном падеже
 
 > `$targetcar$` `$targetvehcolor$` цвета -> Bravura красного цвета
+
+### [@hudpos](https://github.com/GrezeeBal/SnailMaticDocs/files/9115915/hudpos.zip)
+
+Автоматически прикрепляет виджет (HUD) биндера к одной из 9 позиций на экране. Автор - Maksimilian Avdeev aka g1d3on
+
+![Screenshot_1](https://user-images.githubusercontent.com/71496296/179097807-4127889c-20ba-4e4a-8412-12292bd8b782.png)
