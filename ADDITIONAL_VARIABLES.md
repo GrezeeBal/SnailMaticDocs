@@ -54,4 +54,6 @@
 
 Автоматически прикрепляет виджет (HUD) биндера к одной из 9 позиций на экране. Автор - Maksimilian Avdeev aka g1id3on
 
+Вставлять в начало кода HUD'а.
+
 ![Screenshot_1](https://user-images.githubusercontent.com/71496296/179097807-4127889c-20ba-4e4a-8412-12292bd8b782.png)
