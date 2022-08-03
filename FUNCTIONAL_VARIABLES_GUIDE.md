@@ -71,11 +71,15 @@
 
 - `@carhealth($closestidtocenter$)@` - вернёт ХП машины игрока, на которого ты смотришь
 
+</br>
+
 ![image](https://user-images.githubusercontent.com/71496296/152643274-45e9fe26-986e-42fd-9228-7461e3a2d7e6.png)
 
 - `@id(Yarik_Vodila)@` - вернёт 148
 - `@nickrp(148)@` - вернёт Yarik Vodila
 - `@ping(148)@` - вернёт 145
+
+</br>
 
 ![image](https://user-images.githubusercontent.com/71496296/152643330-e74770ad-96a3-4345-adfa-7ab6e7059be4.png)
 
