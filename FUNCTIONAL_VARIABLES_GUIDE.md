@@ -123,6 +123,7 @@
   @chatwords(2)@ - подставит вместо себя 2 параметр(cлово)
   @chatwords(99;1)@ - первое слово из последнего сообщения
   @chatwords(98;5)@ - пятое слово из предпоследнего сообщения
+  @chatwords(98;4+)@ - весь текст, после четвертого параметра
   ```
 
   Например, переменная `@chatwords(5+)@` подставит вместо себя весь текст, идущий после **пятого** параметра (включительно). Результат:
@@ -422,13 +423,13 @@
 
   Затем впишем в поле "Сообщение" переменные, которые будут подставлять нужную нам информацию:
 
-  Чтобы биндер писал ник игрока, используем переменную [@nick()@](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#nick), которая возвращает ник по иду. В её параметр вставим `@paramcmd(1)@`, которая будет подставлять вписанный в команду `/id` первый аргумент, а именно ID
+  Чтобы биндер писал ник игрока, используем переменную [@nick()@](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B2%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%89%D0%B0%D1%8E%D1%89%D0%B8%D0%B5-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8E-%D0%BE%D0%B1-%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC-%D0%B8%D0%B3%D1%80%D0%BE%D0%BA%D0%B5), которая возвращает ник по иду. В её параметр вставим `@paramcmd(1)@`, которая будет подставлять вписанный в команду `/id` первый аргумент, а именно ID
 
   ![image](https://user-images.githubusercontent.com/71496296/175749686-d550ae5c-d4d9-4009-89ac-164c7c989272.png)
 
   > Заметь, что у `@paramcmd` последний знак собачки убран - это обязательно нужно делать, если использовать функ. переменную в параметре у другой функ. переменной.
 
-  Чтобы биндер перекрасил этот ник в цвет клиста этого игрока - будем использовать [@nickcolor()@](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#nickcolor). Подставим её перед переменной с ником, потому что она возвращает HEX цвет {RRGGBB}:
+  Чтобы биндер перекрасил этот ник в цвет клиста этого игрока - будем использовать [@nickcolor()@](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B2%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%89%D0%B0%D1%8E%D1%89%D0%B8%D0%B5-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8E-%D0%BE%D0%B1-%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC-%D0%B8%D0%B3%D1%80%D0%BE%D0%BA%D0%B5). Подставим её перед переменной с ником, потому что она возвращает HEX цвет {RRGGBB}:
 
   ![image](https://user-images.githubusercontent.com/71496296/175749816-4d5f73b8-a0aa-47c8-a828-68cdb6ebbd71.png)
 
