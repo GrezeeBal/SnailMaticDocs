@@ -980,7 +980,7 @@ sm.samp_isPlayerConnected
 
 `Решение`: Установи с заменой [RakLua](https://www.blast.hk/threads/69433/) 2.1 в папку `…\moonloader\lib`.
 
-`Решение 2`: смени параметр **hookmode** на `0`(это автономный) или `3`(это sampfuncs) в файле _C:/Users/user/Documents/GTA San Andreas User Files/SAMP/SnailMatic/**snailmatic.json_**
+`Решение 2`: смени параметр **hookmode** на `0`(это автономный) или `3`(это sampfuncs) в файле _C:/Users/user/Documents/GTA San Andreas User Files/SAMP/SnailMatic/snailmatic.json_
 
 ## 3.
 
