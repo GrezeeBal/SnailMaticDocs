@@ -61,11 +61,9 @@ _C:\Users\user\Documents\GTA San Andreas User Files\SAMP\SnailMatic_
 > 
 > (Google Drive) [fa-icons](https://drive.google.com/file/d/1F_92YOGjzavRPDo9oRoAUV6GWrwoLpNi/view), [copas](https://drive.google.com/file/d/1d7bUqdDBOm6ASKQc9jgMhtRBT2kPx4J8/view), [socket](https://drive.google.com/file/d/1TuGRmHT0cB4bMdgO9LaW0cuNk7NdpJ8p/view)
 
-Cкачивать библиотеки отдельно не нужно, всё идет в архиве с биндером ([1. Установка](#1-установка))
-
-Биндер совместим с SA-MP 0.3.7 R1, R3, R4-2, 0.3DL, CRMP и независим от SAMPFUNCS и CLEO.
-
-Работает на лаунчерах, при условии, что на них можно устанавливать моды (в частности .lua)
+- Cкачивать библиотеки отдельно не нужно, всё идет в архиве с биндером ([1. Установка](#1-установка))
+- Биндер совместим с SA-MP 0.3.7 R1, R3, R4-2, 0.3DL, CRMP и независим от SAMPFUNCS и CLEO.
+- Работает на лаунчерах, при условии, что на них можно устанавливать моды (в частности .lua)
 
 ## Запуск
 
@@ -982,7 +980,7 @@ sm.samp_isPlayerConnected
 
 `Решение`: Установи с заменой [RakLua](https://www.blast.hk/threads/69433/) 2.1 в папку `…\moonloader\lib`.
 
-`Решение 2`: смени параметр `hookmode` на `0`(это автономный) или `3`(это sampfuncs) в файле C:/Users/user/Documents/GTA San Andreas User Files/SAMP/SnailMatic/`snailmatic.json`
+`Решение 2`: смени параметр **hookmode** на `0`(это автономный) или `3`(это sampfuncs) в файле _C:/Users/user/Documents/GTA San Andreas User Files/SAMP/SnailMatic/**snailmatic.json_**
 
 ## 3.
 
@@ -990,7 +988,7 @@ sm.samp_isPlayerConnected
 Биндер ведёт себя очень нестабильно, бинды не проигрываются полностью, биндер перезагружается
 ```
 
-`Решение`: В настройках биндера с помощью ползунка "Режим хукинга" измени режим на любой другой. Описание режимов указаны в подсказке. Самый стабильный режим - SAMPFUNCS (наличине SAMPFUNCS обязательно).
+`Решение`: В настройках биндера с помощью ползунка "Режим хукинга" измени режим на любой другой. Описание режимов указаны в подсказке. Самый стабильный режим - **SAMPFUNCS** (наличие SAMPFUNCS обязательно).
 
 ## 4.
 
@@ -998,7 +996,7 @@ sm.samp_isPlayerConnected
 (error)    SnailMatic: Ошибка #1. Перезагрузка
 ```
 
-`Решение`: В настройках биндера с помощью ползунка "Режим хукинга" измени режим на любой другой. Описание режимов указаны в подсказке. Самый стабильный режим - SAMPFUNCS (наличине SAMPFUNCS обязательно).
+`Решение`: В настройках биндера с помощью ползунка "Режим хукинга" измени режим на любой другой. Описание режимов указаны в подсказке. Самый стабильный режим - **SAMPFUNCS** (наличие SAMPFUNCS обязательно).
 
 ## 5.
 
@@ -1019,7 +1017,7 @@ stack traceback:
 (error) SnailMatic: Script died due to an error. (33B3215C)
 ```
 
-`Решение`: Удали snailmatic.json по пути C:/Users/user/Documents/GTA San Andreas User Files/SAMP/`SnailMatic`
+`Решение`: Удали **_snailmatic.json_** по пути _C:/Users/user/Documents/GTA San Andreas User Files/SAMP/SnailMatic_
 
 ## 7.
 
