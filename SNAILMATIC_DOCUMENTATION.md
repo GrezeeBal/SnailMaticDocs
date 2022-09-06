@@ -849,7 +849,7 @@ SnailMatic экспортирует некоторые свои функции, 
 local sm = import("snailmatic.lua")
 ```
 
-Для скриптов через SnailMatic\variables отдельно подключать ничего не нужно, как и использовать переменную `sm.`. [Примеры здесь](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/ADDITIONAL_VARIABLES.md)
+Для скриптов через _SnailMatic\variables_ отдельно подключать ничего не нужно, как и использовать переменную `sm.`. [Примеры здесь](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/ADDITIONAL_VARIABLES.md)
 
 В переменной `sm` будут находиться такие функции:
 
