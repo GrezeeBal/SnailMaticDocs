@@ -11,6 +11,7 @@
    - [Гайд по созданию биндов](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/BINDS_CREATING_GUIDE.md)
 5. [Переменные](#5-переменные)
    - [Гайд по функциональным переменным](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md)
+   - [Сборник дополнительных переменных, которых нет в стандартном наборе](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/ADDITIONAL_VARIABLES.md)
 6. [Выбор цели (переменные $target...$)](#6-выбор-цели-переменные-target)
 7. [Настройки биндера](#7-настройки-биндера)
 8. [Шпаргалка (внутриигровой блокнот)](#8-шпаргалка-внутриигровой-блокнот)
