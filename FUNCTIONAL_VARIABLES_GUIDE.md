@@ -1,5 +1,7 @@
 # Функциональные переменные в SnailMatic
 
+- [Сборник дополнительных переменных, которых нет в стандартном наборе](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/ADDITIONAL_VARIABLES.md)
+
 ### Для быстрого поиска информации о нужной переменной нажми <ins>CTRL+F</ins> и введи название переменной.
 
 </br>
