@@ -775,7 +775,7 @@ _Поставить на паузу/снять с паузы_
 ![image](https://user-images.githubusercontent.com/71496296/152435819-ea93ee9c-88f0-404f-82d0-f2a46d5197fe.png) ![image](https://user-images.githubusercontent.com/71496296/152435833-5dbeb351-9cc5-4910-8e45-d50eaf59b8ca.png)
 
 
-> Параметры для команд и переменных смотри ниже
+> Параметры переменных смотри ниже
 
 ### Параметры переменных `@bind...()@` и команд `/sm.stop`, `/sm.start`
 
