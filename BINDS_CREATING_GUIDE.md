@@ -378,7 +378,7 @@ SMS:.+Отправитель: .+_.+ %[т%.(%d+)%]
 
 ![image](https://user-images.githubusercontent.com/71496296/152640414-ad488bec-12c5-4686-96e1-f80b72bfe8b1.png)
 
-По сути всё готово и нам остается лишь открыть это диалоговое окно с помощью команды [/sm.select](https://snailmatic_documentation.md/#104-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B4%D0%B8%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0-%D1%81%D1%82%D1%80%D0%BE%D0%BA-%D0%B1%D0%B8%D0%BD%D0%B4%D0%B0-%D0%BF%D0%BE-%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8), но для удобности мы эту команду так же забиндим, чтобы не вводить её вручную каждый раз
+По сути всё готово и нам остается лишь открыть это диалоговое окно с помощью команды [/sm.select](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#104-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B4%D0%B8%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0-%D1%81%D1%82%D1%80%D0%BE%D0%BA-%D0%B1%D0%B8%D0%BD%D0%B4%D0%B0-%D0%BF%D0%BE-%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8), но для удобности мы эту команду так же забиндим, чтобы не вводить её вручную каждый раз
 
 Создаём еще один бинд, ставим на него любую активацию (в моём случае по кнопке) и название «Диалоговое окно»:
 
