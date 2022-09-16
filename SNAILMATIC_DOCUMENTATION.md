@@ -873,18 +873,37 @@ sm.updateVariable('targetid', 1) -- обновит переменную targetid
 ```
 
 ```Lua
+result = sm.callVariable(name, ...) -- вызвать переменную, возвращается результат обработки.
+
+id = sm.callVariable('targetid') -- получить ид текущей цели, обычная переменная
+nick = sm.callVariable('nick', 1) -- получить ник по ид, функциональная переменная
+```
+
+```Lua
+result = sm.convertString(str) -- обрабатывает строку с переменными
+
+result = sm.convertString("hello, my name is $myname$") -- "hello, my name is Yarik"
+```
+
+```Lua
+sm.print(...)
+```
+
+— у SM есть консоль, которая открывается на Ctrl+Ё(Ctrl+~) или командой /smconsole, выводит сообщение туда, сделано на случай если не установлен SAMPFUNCS.
+
+```Lua
 sm.registerVariable(name, description, value) -- зарегистрировать новую обычную переменную
 sm.registerFunctionalVariable(name, description, value, render) -- зарегистрировать новую функциональную переменную
 ```
 
-— параметр `render` может быть строкой, тогда это превратится в подсказку к функциональной переменной.
+— параметр `render` может быть строкой, тогда это превратится в подсказку к функциональной переменной (знак вопроса у названия переменной):
 
 ```Lua
 [[@chatwordsl(99;1)@ - первое слово из последнего сообщения
 @chatwordsl(98;5)@ - пятое слово из предпоследнего сообщения]]
 ```
 
-И может быть функцией, которая рендерит имгуи окно, как пример:
+— и может быть функцией, которая рендерит имгуи окно (знак плюса у названия переменной), как пример:
 
 ```Lua
 function()
@@ -905,25 +924,6 @@ end)
 ```
   
 </details>
-
-```Lua
-result = sm.callVariable(name, ...) -- вызвать переменную, возвращается результат обработки.
-
-id = sm.callVariable('targetid') -- получить ид текущей цели, обычная переменная
-nick = sm.callVariable('nick', 1) -- получить ник по ид, функциональная переменная
-```
-
-```Lua
-result = sm.convertString(str) -- обрабатывает строку с переменными
-
-result = sm.convertString("hello, my name is $myname$") -- "hello, my name is Yarik"
-```
-
-```Lua
-sm.print(...)
-```
-
-— у SM есть консоль, которая открывается на Ctrl+Ё(Ctrl+~) или командой /smconsole, выводит сообщение туда, сделано на случай если не установлен SAMPFUNCS.
 
 <details>
   <summary markdown="span">Аналоги функций SAMPFUNCS</summary>
