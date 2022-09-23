@@ -525,7 +525,7 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
 ![image](https://user-images.githubusercontent.com/71496296/152431266-cc3b8410-602f-4a20-b8f0-1d5fa3916621.png)
 
-<pre><code>{ff0000}Text — устанавливает тексту цвет, в данном случае красный цвет.
+<pre><code><b>{ff0000}Text</b> — устанавливает тексту цвет, в данном случае красный цвет.
 <b>#newline</b> — переносит текст на новую строку.
 <b>#sameline</b> — переносит текст на предыдущую строку.
 </code></pre>
@@ -595,7 +595,7 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
 ![image](https://user-images.githubusercontent.com/71496296/152433076-fcf2020a-c29f-49b2-a797-f55a4026c407.png)
 
-<pre><code>{ff0000}Text — устанавливает тексту цвет, в данном случае красный цвет.
+<pre><code><b>{ff0000}Text</b> — устанавливает тексту цвет, в данном случае красный цвет.
 <b>#newline</b> — переносит текст на новую строку.
 <b>#sameline</b> — переносит текст на предыдущую строку.
 </code></pre>
