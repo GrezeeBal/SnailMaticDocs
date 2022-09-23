@@ -899,7 +899,7 @@ sm.registerFunctionalVariable(name, description, value, render) -- зареги�
 — параметр `render` может быть строкой, тогда это превратится в подсказку к функциональной переменной (знак вопроса у названия переменной):
 
 ```Lua
-sm.registerFunctionalVariable("varname", "vardescription", function(param) end, 
+sm.registerFunctionalVariable('varname', 'vardescription', function(param) end, 
 [[@chatwordsl(99;1)@ - первое слово из последнего сообщения
 @chatwordsl(98;5)@ - пятое слово из предпоследнего сообщения]])
 ```
@@ -907,7 +907,7 @@ sm.registerFunctionalVariable("varname", "vardescription", function(param) end,
 — и может быть функцией, которая рендерит имгуи окно (знак плюса у названия переменной), как пример:
 
 ```Lua
-sm.registerFunctionalVariable("varname", "vardescription", function(param) end, 
+sm.registerFunctionalVariable('varname', 'vardescription', function(param) end, 
 function()
   imgui.Button("ok")
 end)
