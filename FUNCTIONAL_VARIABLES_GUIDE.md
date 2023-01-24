@@ -632,7 +632,7 @@
                                                
     `@waitif(not samp_isChatInputActive())@` - бинд на паузе, пока закроется чат
                                                
-    `@waitif(not samp_isChatInputActive())@` - бинд на паузе, пока откроется чат                                         
+    `@waitif(samp_isChatInputActive())@` - бинд на паузе, пока откроется чат                                         
   </details>
   
 </details>
