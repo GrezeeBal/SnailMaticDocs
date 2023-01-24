@@ -624,9 +624,13 @@
   
   <details><summary>Ещё примеры условий:</summary>
     `@waitif(getCharHealth(PLAYER_PED) < 100)@` - бинд на паузе, пока здоровье станет меньше 100
+                                               
     `@waitif(isCharInAnyCar(PLAYER_PED))@` - бинд на паузе, пока твой перс сядет в какой-то автомобиль
+                                               
     `@waitif(isPlayerDead(PLAYER_HANDLE))@` - бинд на паузе, пока твой перс умрет и тогда отыграет бинд дальше
+                                               
     `@waitif(not samp_isChatInputActive())@` - бинд на паузе, пока закроется чат
+                                               
     `@waitif(not samp_isChatInputActive())@` - бинд на паузе, пока откроется чат                                         
   </details>
   
