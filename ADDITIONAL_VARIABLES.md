@@ -44,7 +44,7 @@
 
 > При желании переменную можно переделать под себя: в строчках `--Скины армии` можно добавить или убрать иды скинов (не обязательно армии), на которых будет реагировать переменная. Так же можно изменить радиус с 5 метров на любой другой в строчках `local radius = 5`
 
-### [$targetvehcolor](https://github.com/GrezeeBal/SnailMaticDocs/files/8682168/vehColor.zip)
+### [$targetvehcolor$](https://github.com/GrezeeBal/SnailMaticDocs/files/8682168/vehColor.zip)
 
 Пишет цвет автомобиля выбранного игрока [(таргета)](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#6-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80-%D1%86%D0%B5%D0%BB%D0%B8-%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-target) на русском языке в родительном падеже
 
@@ -60,3 +60,7 @@ tl, tc, tr, cl, cc, cr, bl, bc, br.
 Вставлять в начало кода HUD'а.
 
 ![Screenshot_1](https://user-images.githubusercontent.com/71496296/179097807-4127889c-20ba-4e4a-8412-12292bd8b782.png)
+
+### [$mycarid$](https://github.com/GrezeeBal/SnailMaticDocs/files/10911298/mycarid.zip)
+
+Пишет ид транспорта, в котором находится твой персонаж
