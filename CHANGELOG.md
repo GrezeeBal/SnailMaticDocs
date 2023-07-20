@@ -22,7 +22,7 @@ SnailMatic 1.8 Achatina
   - Нужно закинуть файл со звуковым уведомлением и названием **notification.mp3** в _Documents\GTA San Andreas User Files\SAMP\SnailMatic\_
 [notification.zip](https://github.com/GrezeeBal/SnailMaticDocs/files/12101036/notification.zip)
 - Новые переменные:
-  - `$weaponsid$` - пишет ИД оружия в руке
+  - `$myweaponid$` - пишет ИД оружия в руке
   - `@dialogtext()@` - пишет текст из диалога по его номеру (чтобы воспользоваться интерактивной подсказкой нужно открыть диалог)
   - `@hud()@` - переключает состояние виджета по его номеру/названию (вкл/выкл). Например @hud(1)@ или @hud(HUD 1)@ включит/выключит виджет под номером 1
   - `@hudactivate()@` - включает виджет по его номеру/названию. Например @hud(1)@ или @hud(HUD 1)@ включит/выключит виджет под номером 1
