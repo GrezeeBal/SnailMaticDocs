@@ -19,8 +19,10 @@ SnailMatic 1.8 Achatina
 - Возможность добавлять 2+ виджета (HUD)
 - Теперь в активации по тексту в чате можно использовать переменные из биндера ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/47998ce3-58fe-4117-8210-aaa4ae0c83c7)
 - Звук уведомления от биндера теперь можно изменить
-  - Нужно закинуть файл со звуковым уведомлением и названием **notification.mp3** в _Documents\GTA San Andreas User Files\SAMP\SnailMatic_.
-  - Пример: [notification.zip](https://github.com/GrezeeBal/SnailMaticDocs/files/12101036/notification.zip)
+  - Первый вариант: нужно закинуть файл со звуковым уведомлением и названием **notification.mp3** в _Documents\GTA San Andreas User Files\SAMP\SnailMatic_.
+    - Пример: [notification.zip](https://github.com/GrezeeBal/SnailMaticDocs/files/12101036/notification.zip)
+  - Второй вариант: создать текстовый документ **notification.txt** в _Documents\GTA San Andreas User Files\SAMP\SnailMatic_ и вписать в него прямую ссылку с интернета на mp3 файл
+    - Пример: [notification.txt](https://github.com/GrezeeBal/SnailMaticDocs/files/12134942/notification.txt)
 - Новые переменные:
   - `$myweaponid$` - пишет ИД оружия в руке
   - `$thisbind$` - пишет имя и папку запущенного бинда. Полезно для переменных, которые взаимодействуют с биндами. Например `@bindstop($thisbind$)@` остановит бинд, в котором была вызвана эта переменная
