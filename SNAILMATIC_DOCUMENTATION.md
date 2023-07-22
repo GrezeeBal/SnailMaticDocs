@@ -630,6 +630,88 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
 </br>
 
+<details><summary>Гайд по созданию виджетов</summary>
+
+  В этом примере мы сделаем виджет, который будет показывать оружие в руке и игрока на которого мы смотрим, а так же он будет автоматически скрывать и показывать эту информацию при необходимости:
+
+  ![hud](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/862f7d4c-323d-4444-a5df-1df9f8c1a0f8)
+
+  Весь код выглядит так:
+
+  ```
+  @ifandor("$myweapon$"~="Fist"?#img(weapons/$myweaponid$.png, size(75, 75)):)@
+  #center#font18@ifandor("$myweapon$"~="Fist"?{8af7ff}$myweapon${FFFFFF} - $myweaponclip$:)@
+  #center#font18@ifandor("$closestidtocenter$"==""?:@nickcolor($closestidtocenter$)#iconUSER {FFFFFF}@nick($closestidtocenter$){FFFFFF}[$closestidtocenter$])@
+  #center#font14@ifandor("@car($closestidtocenter$)"==""?:{FFFFFF}| #iconCAR {8af7ff}@car($closestidtocenter$){FFFFFF} ... #iconWRENCH {8af7ff}@carhealth($closestidtocenter$))@
+  ```
+
+  Для начала нам нужно скачать картинки оружия для нашего худа: [weapons.zip](https://github.com/GrezeeBal/SnailMaticDocs/files/12137338/weapons.zip). Папку **weapons** нужно переместить в папку **images** по пути _\Документы\GTA San Andreas User Files\SAMP\SnailMatic\images_
+
+  Чтобы биндер начал рендерить нам картинку оружия, которое сейчас находится в руке персонажа - впишем в редактор виджета следующий тэг: `#img(weapons/$myweaponid$.png, size(75, 75))`
+
+  ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/683a3417-ac14-408d-93f8-2f2abb3ab21d)
+
+  Теперь добавим условие: если в руках нет никакого оружия - картинка не должна показываться. Это мы сделаем с помощью функ. переменной `@ifandor`: `@ifandor("$myweapon$"~="Fist"?#img(weapons/$myweaponid$.png, size(75, 75)):)@`
+
+  Дальше добавим информацию о названии оружия и количестве патронов в обойме: `{8af7ff}$myweapon${FFFFFF} - $myweaponclip$`
+
+  ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/0f83a60a-420f-4deb-8e72-1b0167f3de26)
+
+  Для этой информации так же добавим аналогичное условие, если в руке нет никакого оружия - информация не показывается: `@ifandor("$myweapon$"~="Fist"?{8af7ff}$myweapon${FFFFFF} - $myweaponclip$:)@`
+  
+  ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/2d6b178c-f032-4f86-b56e-b64c652cda52)
+
+  Теперь добавим вывод информации об игроке, на которого мы смотрим:
+
+  В первую строку будем выводить ник и ид игрока, а во вторую его машину, если он в ней сидит. Условия все те же - информация будет выводится только тогда, когда я смотрю на какого-либо игрока.
+
+  ```
+  @ifandor("$closestidtocenter$"==""?:@nickcolor($closestidtocenter$)#iconUSER {FFFFFF}@nick($closestidtocenter$){FFFFFF}[$closestidtocenter$])@
+  @ifandor("@car($closestidtocenter$)"==""?:{FFFFFF}| #iconCAR {8af7ff}@car($closestidtocenter$){FFFFFF} ... #iconWRENCH {8af7ff}@carhealth($closestidtocenter$))@
+  ```
+
+  ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/19df75c0-635a-4284-99c1-eeea6c229e13)
+
+  Дальше займемся кастомизацией нашего текста: добавим к тексту тэг `#center`, чтобы он рендерился по центру виджета, а не слева.
+
+  ```
+  @ifandor("$myweapon$"~="Fist"?#img(weapons/$myweaponid$.png, size(75, 75)):)@
+  #center@ifandor("$myweapon$"~="Fist"?{8af7ff}$myweapon${FFFFFF} - $myweaponclip$:)@
+  #center@ifandor("$closestidtocenter$"==""?:@nickcolor($closestidtocenter$)#iconUSER {FFFFFF}@nick($closestidtocenter$){FFFFFF}[$closestidtocenter$])@
+  #center@ifandor("@car($closestidtocenter$)"==""?:{FFFFFF}| #iconCAR {8af7ff}@car($closestidtocenter$){FFFFFF} ... #iconWRENCH {8af7ff}@carhealth($closestidtocenter$))@
+  ```
+
+  И изменим рашмер шрифта: укажем для нашего оружия и ника игрока размер `18`, а информацию о машине размер `14` с помощью тэга `#font`
+
+  ```
+  @ifandor("$myweapon$"~="Fist"?#img(weapons/$myweaponid$.png, size(75, 75)):)@
+  #font18#center@ifandor("$myweapon$"~="Fist"?{8af7ff}$myweapon${FFFFFF} - $myweaponclip$:)@
+  #font18#center@ifandor("$closestidtocenter$"==""?:@nickcolor($closestidtocenter$)#iconUSER {FFFFFF}@nick($closestidtocenter$){FFFFFF}[$closestidtocenter$])@
+  #font14#center@ifandor("@car($closestidtocenter$)"==""?:{FFFFFF}| #iconCAR {8af7ff}@car($closestidtocenter$){FFFFFF} ... #iconWRENCH {8af7ff}@carhealth($closestidtocenter$))@
+  ```
+
+  ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/bbf7d957-7f17-4db7-ab76-5634b00da57b)
+
+  Небольшая проблема: картинка находится не по центру виджета. Это можно исправить с помощью аргумента тэга `#img` - pos(x,y). Укажем для картинки позицию `pos(80,1)`: `#img(weapons/$myweaponid$.png, size(75, 75), pos(80,1))`
+
+  ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/10f75e36-4a60-4a5f-a417-7181e277bb3d)
+
+  Уберём авторазмер и отредактируем размер виджета так, чтобы всё ровно отцентрировалось: 
+
+  ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/d6b8813c-ca15-4ff2-b3f5-a82bfd090cfe)
+
+  И выкрутим прозрачность фона в 0, чтобы убрать его.
+
+  ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/9c14c929-a179-41a8-9dee-9af8e29acf0b)
+
+  
+</details>
+  
+</br>
+
+
+</br>
+
 
 
 <!-- ....................................................................ОСТАЛЬНЫЕ ФУНКЦИИ.................................................................... -->
