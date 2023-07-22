@@ -659,7 +659,7 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
   Для этой информации так же добавим аналогичное условие, если в руке нет никакого оружия - информация не показывается: `@ifandor("$myweapon$"~="Fist"?{8af7ff}$myweapon${FFFFFF} - $myweaponclip$:)@`
   
-  ![Screenshot_2](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/a9d030c7-3560-4119-9a9e-592eb1e56096)
+  ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/745ff018-19b9-4ca9-80b6-142264243b9a)
 
   Теперь добавим вывод информации об игроке, на которого мы смотрим:
 
