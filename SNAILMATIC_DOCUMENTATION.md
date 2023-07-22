@@ -62,9 +62,7 @@ _C:\Users\user\Documents\GTA San Andreas User Files\SAMP\SnailMatic_
 
 и библиотеки Moonloader (_установить в **.../moonloader/lib**_):
 
-> [mimgui](https://github.com/THE-FYP/mimgui/releases/download/v1.7.0/mimgui-v1.7.0.zip), [fa-icons](https://disk.yandex.ru/d/JlTZXDRostOp0g), [copas](https://disk.yandex.ru/d/-hnx59P2qRq-uQ), [socket](https://disk.yandex.ru/d/nJeIbYenuZQG3A)
-> 
-> (Google Drive) [fa-icons](https://drive.google.com/file/d/1F_92YOGjzavRPDo9oRoAUV6GWrwoLpNi/view), [copas](https://drive.google.com/file/d/1d7bUqdDBOm6ASKQc9jgMhtRBT2kPx4J8/view), [socket](https://drive.google.com/file/d/1TuGRmHT0cB4bMdgO9LaW0cuNk7NdpJ8p/view)
+> [mimgui](https://github.com/THE-FYP/mimgui/releases/download/v1.7.0/mimgui-v1.7.0.zip), [copas](https://github.com/GrezeeBal/SnailMaticDocs/files/12136140/copas.zip), [fa-icons](https://github.com/GrezeeBal/SnailMaticDocs/files/12136141/fa-icons.zip), [socket](https://github.com/GrezeeBal/SnailMaticDocs/files/12136142/socket.zip)
 
 - Cкачивать библиотеки отдельно не нужно, всё идет в архиве с биндером ([1. Установка](#1-установка))
 - Биндер совместим с SA-MP 0.3.7 R1, R3, R4-2, 0.3DL, CRMP и независим от SAMPFUNCS и CLEO.
