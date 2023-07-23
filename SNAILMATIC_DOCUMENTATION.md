@@ -639,7 +639,7 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
   Весь код выглядит так:
 
   ```
-  @ifandor("$myweapon$"~="Fist"?#img(weapons/$myweaponid$.png, size(75, 75)):)@
+  @ifandor("$myweapon$"~="Fist"?#img(weapons/$myweaponid$.png, size(75, 75), pos(80,1)):)@
   #center#font18@ifandor("$myweapon$"~="Fist"?{8af7ff}$myweapon${FFFFFF} - $myweaponclip$:)@
   #center#font18@ifandor("$closestidtocenter$"==""?:@nickcolor($closestidtocenter$)#iconUSER {FFFFFF}@nick($closestidtocenter$){FFFFFF}[$closestidtocenter$])@
   #center#font14@ifandor("@car($closestidtocenter$)"==""?:{FFFFFF}| #iconCAR {8af7ff}@car($closestidtocenter$){FFFFFF} ... #iconWRENCH {8af7ff}@carhealth($closestidtocenter$))@
