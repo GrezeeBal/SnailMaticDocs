@@ -133,6 +133,8 @@ _C:\Users\user\Documents\GTA San Andreas User Files\SAMP\SnailMatic_
 <b>CTRL+N и сразу же CTRL+Enter</b> - создать новый бинд и сразу открыть его
 </code></pre>
 
+> 10.9. [Кастомизация биндера](#109-кастомизация-биндера)
+
 </br>
 
 
