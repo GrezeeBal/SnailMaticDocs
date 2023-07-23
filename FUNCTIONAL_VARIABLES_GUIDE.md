@@ -585,7 +585,7 @@
   @random(20-30)@ - случайное число от 20 до 30
   ```
 
-  > [Пример с использованием этой переменной]([https://github.com/GrezeeBal/SnailMaticDocs/blob/main/BINDS_CREATING_GUIDE.md#11-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D1%8B%D1%85-%D0%BE%D1%82%D1%8B%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%BA](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/BINDS_CREATING_GUIDE.md#11-%D1%80%D0%B0%D0%BD%D0%B4%D0%BE%D0%BC%D0%B0%D0%B9%D0%B7%D0%B5%D1%80-%D0%BE%D1%82%D1%8B%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%BA))
+  > [Пример с использованием этой переменной](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/BINDS_CREATING_GUIDE.md#11-%D1%80%D0%B0%D0%BD%D0%B4%D0%BE%D0%BC%D0%B0%D0%B9%D0%B7%D0%B5%D1%80-%D0%BE%D1%82%D1%8B%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%BA)
 
 </details>
   
