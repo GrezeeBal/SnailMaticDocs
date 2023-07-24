@@ -537,7 +537,7 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 ```
 {RRGGBB} Text - устанавливает цвет тексту. Например, "{ff0000}Этот текст покрашен в красный"
 #sameline Text - переносит текст на предыдущую строку. Например:
-  Текст слева
+  "Текст слева
   #right#sameline Текст справа" - на одной строке будет два разных текста слева и справа окна
 #center Text - переносит текст в центр шпаргалки
 #right Text - переносит текст в правую часть шпаргалки
@@ -547,10 +547,10 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
   Сами иконки можно посмотреть на https://fontawesome.com/v4.7/icons/
 #img(1.png) - картинка с названием 1.png по пути Documents\GTA San Andreas User Files\SAMP\SnailMatic\images\
 #img(1.png, size(10,10)) - картинка 1.png по вышеуказанному пути с размером 10 на 10 пикселей
-#img(1.png, pos(1,1)) - картинка 1.png по вышеуказанному пути на позиции x = 1 y = 1 относительно окна виджета/шпаргалки
+#img(1.png, pos(1,1)) - картинка 1.png по вышеуказанному пути на позиции x = 1 y = 1 относительно окна шпаргалки
 #img(1.png, pos(1,1), size(10,10))
 #img(1.png, size(10,10), pos(1,1))
-#img(1.png, size(-1,-1)) - картинка 1.png по вышеуказанному пути размер которой будет зависеть от размера окна виджета/шпаргалки (по сути авторазмер картинки)
+#img(1.png, size(-1,-1)) - картинка 1.png по вышеуказанному пути размер которой будет зависеть от размера окна шпаргалки (по сути авторазмер картинки)
 #img(weapons/1.png) - картинка 1.png по пути Documents\GTA San Andreas User Files\SAMP\SnailMatic\images\weapons\
 #img(C:\Users\user\Изображения\Wallpapers\1.png) - картинка 1.png по пути C:\Users\user\Изображения\Wallpapers\
 ```
@@ -612,7 +612,7 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 ```
 {RRGGBB} Text - устанавливает цвет тексту. Например, "{ff0000}Этот текст покрашен в красный"
 #sameline Text - переносит текст на предыдущую строку. Например:
-  Текст слева
+  "Текст слева
   #right#sameline Текст справа" - на одной строке будет два разных текста слева и справа окна
 #center Text - переносит текст в центр виджета
 #right Text - переносит текст в правую часть виджета
@@ -622,10 +622,10 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
   Сами иконки можно посмотреть на https://fontawesome.com/v4.7/icons/
 #img(1.png) - картинка с названием 1.png по пути Documents\GTA San Andreas User Files\SAMP\SnailMatic\images\
 #img(1.png, size(10,10)) - картинка 1.png по вышеуказанному пути с размером 10 на 10 пикселей
-#img(1.png, pos(1,1)) - картинка 1.png по вышеуказанному пути на позиции x = 1 y = 1 относительно окна виджета/шпаргалки
+#img(1.png, pos(1,1)) - картинка 1.png по вышеуказанному пути на позиции x = 1 y = 1 относительно окна виджета
 #img(1.png, pos(1,1), size(10,10))
 #img(1.png, size(10,10), pos(1,1))
-#img(1.png, size(-1,-1)) - картинка 1.png по вышеуказанному пути размер которой будет зависеть от размера окна виджета/шпаргалки (по сути авторазмер картинки)
+#img(1.png, size(-1,-1)) - картинка 1.png по вышеуказанному пути размер которой будет зависеть от размера окна виджета (по сути авторазмер картинки)
 #img(weapons/1.png) - картинка 1.png по пути Documents\GTA San Andreas User Files\SAMP\SnailMatic\images\weapons\
 #img(C:\Users\user\Изображения\Wallpapers\1.png) - картинка 1.png по пути C:\Users\user\Изображения\Wallpapers\
 ```
@@ -653,7 +653,7 @@ https://user-images.githubusercontent.com/71496296/152427981-9e2a9ba2-1f29-4294-
 
   ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/683a3417-ac14-408d-93f8-2f2abb3ab21d)
 
-  Теперь добавим условие: если в руках нет никакого оружия - картинка не должна показываться. Это мы сделаем с помощью функ. переменной `@ifandor`: `@ifandor("$myweapon$"~="Fist"?#img(weapons/$myweaponid$.png, size(75, 75)):)@`
+  Теперь добавим условие: если в руках нет никакого оружия - картинка не должна показываться. Это мы сделаем с помощью функ. переменной [@ifandor](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/FUNCTIONAL_VARIABLES_GUIDE.md#ifandor): `@ifandor("$myweapon$"~="Fist"?#img(weapons/$myweaponid$.png, size(75, 75)):)@`
 
   Дальше добавим информацию о названии оружия и количестве патронов в обойме: `{8af7ff}$myweapon${FFFFFF} - $myweaponclip$`
 
