@@ -652,20 +652,24 @@ $targetnick$ - полный ник выбранного игрока
 
 </br>
 
-<details><summary>Гайд по созданию виджетов</summary>
+### Гайд по созданию виджетов
 
-  В этом примере мы сделаем виджет, который будет показывать оружие в руке и игрока на которого мы смотрим, а так же он будет автоматически скрывать и показывать эту информацию при необходимости:
+В этом примере мы сделаем виджет, который будет показывать оружие в руке и игрока на которого мы смотрим, а так же он будет автоматически скрывать и показывать эту информацию при необходимости:
 
-  ![hud](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/862f7d4c-323d-4444-a5df-1df9f8c1a0f8)
+![hud](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/862f7d4c-323d-4444-a5df-1df9f8c1a0f8)
 
-  Весь код выглядит так:
+Весь код выглядит так:
 
-  ```
-  @ifandor("$myweapon$"~="Fist"?#img(weapons/$myweaponid$.png, size(75, 75), pos(80,1)):)@
-  #center#font18@ifandor("$myweapon$"~="Fist"?{8af7ff}$myweapon${FFFFFF} - $myweaponclip$:)@
-  #center#font18@ifandor("$closestidtocenter$"==""?:@nickcolor($closestidtocenter$)#iconUSER {FFFFFF}@nick($closestidtocenter$){FFFFFF}[$closestidtocenter$])@
-  #center#font14@ifandor("@car($closestidtocenter$)"==""?:{FFFFFF}| #iconCAR {8af7ff}@car($closestidtocenter$){FFFFFF} ... #iconWRENCH {8af7ff}@carhealth($closestidtocenter$))@
-  ```
+```
+@ifandor("$myweapon$"~="Fist"?#img(weapons/$myweaponid$.png, size(75, 75), pos(80,1)):)@
+#center#font18@ifandor("$myweapon$"~="Fist"?{8af7ff}$myweapon${FFFFFF} - $myweaponclip$:)@
+#center#font18@ifandor("$closestidtocenter$"==""?:@nickcolor($closestidtocenter$)#iconUSER {FFFFFF}@nick($closestidtocenter$){FFFFFF}[$closestidtocenter$])@
+#center#font14@ifandor("@car($closestidtocenter$)"==""?:{FFFFFF}| #iconCAR {8af7ff}@car($closestidtocenter$){FFFFFF} ... #iconWRENCH {8af7ff}@carhealth($closestidtocenter$))@
+```
+
+</br>
+
+<details><summary>Показать гайд</summary>
 
   Для начала нам нужно скачать картинки оружия для нашего худа: [weapons.zip](https://github.com/GrezeeBal/SnailMaticDocs/files/12137338/weapons.zip). Папку **weapons** нужно переместить в папку **images** по пути _\Документы\GTA San Andreas User Files\SAMP\SnailMatic\images_
 
@@ -729,9 +733,6 @@ $targetnick$ - полный ник выбранного игрока
   
 </details>
   
-</br>
-
-
 </br>
 
 
