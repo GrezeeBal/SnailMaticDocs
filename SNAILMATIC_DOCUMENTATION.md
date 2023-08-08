@@ -725,7 +725,7 @@ $targetnick$ - полный ник выбранного игрока
 
   ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/bbf7d957-7f17-4db7-ab76-5634b00da57b)
 
-  Небольшая проблема: картинка находится не по центру виджета. Это можно исправить с помощью аргумента тэга `#img` - pos(x,y). Укажем для картинки позицию `pos(80,1)`: `#img(weapons/$myweaponid$.png, size(75, 75), pos(80,1))`
+  Небольшая проблема: картинка находится не по центру виджета. Это можно исправить с помощью аргумента тэга **#img** - `pos(x,y)`. Укажем для картинки позицию `pos(80,1)`: `#img(weapons/$myweaponid$.png, size(75, 75), pos(80,1))`
 
   ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/10f75e36-4a60-4a5f-a417-7181e277bb3d)
 
