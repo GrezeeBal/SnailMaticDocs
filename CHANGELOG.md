@@ -16,6 +16,7 @@ SnailMatic 1.8 Achatina
   - `#img(1.png, size(-1,-1))` - картинка **1.png** по вышеуказанному пути размер которой будет зависеть от размера окна виджета/шпаргалки (по сути авторазмер картинки)
   - `#img(weapons/1.png)` - картинка **1.png** по пути _Documents\GTA San Andreas User Files\SAMP\SnailMatic\images\weapons_
   - Примеры картинок: https://imgur.com/a/ynFXvVE
+  - [Гайд по созданию виджетов](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#гайд-по-созданию-виджетов)
 - Возможность добавлять 2+ виджета (HUD)
 - Теперь в активации по тексту в чате можно использовать переменные из биндера ![image](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/47998ce3-58fe-4117-8210-aaa4ae0c83c7)
 - Звук уведомления от биндера теперь можно изменить
