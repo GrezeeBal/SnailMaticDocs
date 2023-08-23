@@ -249,7 +249,7 @@ _C:\Users\user\Documents\GTA San Andreas User Files\SAMP\SnailMatic_
 <details>
   <summary markdown="span">Написать в чат</summary>
   
-* Тоже самое, что и предыдущий вариант, но чат не будет закрываться.
+* Пишет текст из строки в инпутбокс чата(F6), но не отправляет его
 
 </details>
   
