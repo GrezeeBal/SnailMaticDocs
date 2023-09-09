@@ -1,4 +1,4 @@
-Обновлено 07.03.2023
+Обновлено 09.09.2023
 
 ## Дополнительные переменные для SnailMatic
 
@@ -64,3 +64,11 @@ tl, tc, tr, cl, cc, cr, bl, bc, br.
 ### [$mycarid$](https://github.com/GrezeeBal/SnailMaticDocs/files/10911298/mycarid.zip)
 
 Пишет ид транспорта, в котором находится твой персонаж
+
+### [damage.zip](https://github.com/GrezeeBal/SnailMaticDocs/files/12565949/damage.zip)
+
+Включает в себя несколько переменных, которые подставляют вместо себя ник и ид игрока, который стрелял по вам и/или по которому стреляли вы.
+
+> !!! Переменная требует наличия SAMPFUNCS в сборке.
+
+![damage.lua](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/66b71288-cfce-491e-ab36-e92f12da1812)
