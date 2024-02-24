@@ -1,4 +1,4 @@
-Обновлено 09.09.2023
+Обновлено 24.02.2024
 
 ## Дополнительные переменные для SnailMatic
 
@@ -72,3 +72,9 @@ tl, tc, tr, cl, cc, cr, bl, bc, br.
 > Переменная требует наличия SampFuncs и библиотеки samp.lua
 
 ![damage.lua](https://github.com/GrezeeBal/SnailMaticDocs/assets/71496296/66b71288-cfce-491e-ab36-e92f12da1812)
+
+### [@sub](https://github.com/GrezeeBal/SnailMaticDocs/files/14392830/sub.zip)
+
+Обрезает текст с определенного до определенного символа
+
+> @sub(Hello World!;1;5)@ // - Hello
