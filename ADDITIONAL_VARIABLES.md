@@ -77,4 +77,6 @@ tl, tc, tr, cl, cc, cr, bl, bc, br.
 
 Обрезает текст с определенного до определенного символа
 
+> @sub(string;startIndex;endIndex)@
+> 
 > @sub(Hello World!;1;5)@ // - Hello
