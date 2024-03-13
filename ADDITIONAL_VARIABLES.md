@@ -20,11 +20,11 @@
 
 > @nickru(Yarik_Vodila)@ -> Ярик Водила
 
-### [@time+min(...)@](https://github.com/GrezeeBal/SnailMaticDocs/files/8681331/timemin.zip)
+### [@addtime(...)@](https://github.com/GrezeeBal/SnailMaticDocs/files/14594187/addtime.zip)
 
 Добавляет к текущему времени указанное кол-во времени в формате МИНУТЫ:СЕКУНДЫ и пишет это время
 
-> @time+min(13:27)@ - добавит к текущему времени 13 минут и 27 секунд (00:55:21 > 01:08:48) и напишет это время
+> @addtime(13:27)@ - добавит к текущему времени 13 минут и 27 секунд (00:55:21 > 01:08:48) и напишет это время
 
 ### [$cops...](https://github.com/GrezeeBal/SnailMaticDocs/files/8681411/cops.zip)
 
