@@ -1219,7 +1219,7 @@ stack traceback:
         C:\GTA San Andreas\moonloader\snailmatic.luac: in function <C:\GTA San Andreas\moonloader\snailmatic.luac:0>
 ```
 
-`Решение`: Установи Microsoft Visual C++ (желательно все пакеты).
+`Решение`: Установи https://aka.ms/vs/17/release/vc_redist.x86.exe
 
 ## 9.
 
