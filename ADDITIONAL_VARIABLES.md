@@ -1,4 +1,4 @@
-Обновлено 24.02.2024
+Обновлено 19.08.2024
 
 ## Дополнительные переменные для SnailMatic
 
@@ -80,3 +80,9 @@ tl, tc, tr, cl, cc, cr, bl, bc, br.
 > @sub(string;startIndex;endIndex)@
 > 
 > @sub(Hello World!;1;5)@ // - Hello
+
+### [@setweapon](https://github.com/user-attachments/files/16652815/setweapon.zip)
+
+Дает твоему персонажу в руки указанное оружие, по его иду (если есть в инвентаре)
+
+> @setweapon(24)@ - достанет дигл
