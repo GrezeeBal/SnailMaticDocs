@@ -1064,7 +1064,7 @@ sm.updateVariable('targetid', 1) -- обновит переменную targetid
 ```
 
 ```Lua
-result = sm.callVariable(name, ...) -- вызвать переменную, возвращается результат обработки.
+result = sm.callVariable(name, param) -- вызвать переменную, возвращается результат обработки.
 id = sm.callVariable('targetid') -- получить ид текущей цели, обычная переменная
 nick = sm.callVariable('nick', 1) -- получить ник по ид, функциональная переменная
 ```
@@ -1075,7 +1075,7 @@ result = sm.convertString("hello, my name is $myname$") -- "hello, my name is Ya
 ```
 
 ```Lua
-sm.print(...) -- выводит текст в консоль биндера. Открыть консоль - Ctrl+~ или /smconsole
+sm.print('Text') -- выводит текст в консоль биндера. Открыть консоль - Ctrl+~ или /smconsole
 ```
 
 ```Lua
