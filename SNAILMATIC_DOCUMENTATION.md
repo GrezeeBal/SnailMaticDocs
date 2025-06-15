@@ -59,7 +59,7 @@
 
 > [mimgui](https://github.com/THE-FYP/mimgui/releases/download/v1.7.0/mimgui-v1.7.0.zip), [copas](https://github.com/GrezeeBal/SnailMaticDocs/files/12136140/copas.zip), [fa-icons](https://github.com/GrezeeBal/SnailMaticDocs/files/12136141/fa-icons.zip), [socket](https://github.com/GrezeeBal/SnailMaticDocs/files/12136142/socket.zip)
 
-- Cкачивать библиотеки отдельно не нужно, всё идет в архиве с биндером ([Ручная установка](#))
+- Cкачивать библиотеки отдельно не нужно, всё идет в архиве с биндером ([Ручная установка](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#%D1%80%D1%83%D1%87%D0%BD%D0%B0%D1%8F-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0--rar-%D0%B0%D1%80%D1%85%D0%B8%D0%B2))
 - Биндер совместим с SA-MP 0.3.7 R1, R3, R4-2, 0.3DL, CRMP и независим от SAMPFUNCS и CLEO.
 - Работает на лаунчерах, при условии, что на них можно устанавливать моды (в частности .lua)
 
@@ -75,7 +75,7 @@
 ### Открыть биндер — `CTRL+Z` или по команде `/sm.open`.
 <img src="https://user-images.githubusercontent.com/71496296/153750631-4dc07872-d339-4c29-985e-45d2f9c3775b.png" width="700">
 
-В случае, если биндер не запустился/не работает — установи все библиотеки по ссылкам выше ([2. Требования](#2-требования-для-биндера-и-его-запуск)). 
+В случае, если биндер не запустился/не работает — установи все библиотеки по ссылкам выше ([Требования](https://github.com/GrezeeBal/SnailMaticDocs/edit/main/SNAILMATIC_DOCUMENTATION.md#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)). 
 
 Для подробной информации об ошибках - открой текстовый документ *...\moonloader\moonloader.log* и в строчке `(error) SnailMatic:` - прочитай ошибку.
 
@@ -1176,7 +1176,7 @@ sm.samp_isPlayerConnected
 Биндер не запускается с помощью CTRL+Z или команды /sm.open
 ```
 
-`Решение`: Установи все библиотеки по ссылкам выше (см. [Требования](https://github.com/GrezeeBal/SnailMaticDocs/blob/main/SNAILMATIC_DOCUMENTATION.md#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)). Для подробной информации об ошибках - открой текстовый документ _...\moonloader\moonloader.log_ и в строчке `(error) SnailMatic:` - прочитай ошибку.
+`Решение`: Установи все библиотеки по ссылкам выше (см. [Требования](https://github.com/GrezeeBal/SnailMaticDocs/edit/main/SNAILMATIC_DOCUMENTATION.md#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)). Для подробной информации об ошибках - открой текстовый документ _...\moonloader\moonloader.log_ и в строчке `(error) SnailMatic:` - прочитай ошибку.
 
 ## 2.
 
