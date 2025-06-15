@@ -1056,6 +1056,7 @@ local sm = import("snailmatic.lua")
 ```Lua
 sm.getBinderLanguage -- получает язык интерфейса биндера
 sm.addNotification('Привет мир!') -- отправляет текст в виде уведомления от биндера (sm_addNotification, если через папку variables)
+sm.print('Text') -- выводит текст в консоль биндера. Открыть консоль - Ctrl+~ или /smconsole
 
 sm.updateVariable(name, value) -- обновляет значение переменной
 sm.updateVariable('targetid', 1) -- обновит переменную targetid, задав ей новое значение
@@ -1070,10 +1071,6 @@ nick = sm.callVariable('nick', 1) -- получить ник по ид, функ
 ```Lua
 result = sm.convertString(str) -- обрабатывает строку с переменными
 result = sm.convertString("hello, my name is $myname$") -- "hello, my name is Yarik"
-```
-
-```Lua
-sm.print('Text') -- выводит текст в консоль биндера. Открыть консоль - Ctrl+~ или /smconsole
 ```
 
 ```Lua
