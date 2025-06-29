@@ -86,3 +86,11 @@ tl, tc, tr, cl, cc, cr, bl, bc, br.
 Дает твоему персонажу в руки указанное оружие, по его иду (если есть в инвентаре)
 
 > @setweapon(24)@ - достанет дигл
+
+### [@numberwithdots](https://github.com/user-attachments/files/20966582/numberswithdots.zip)
+
+Разделяет тысячи, миллионы и т.д точками
+
+> @numberwithdots(15000)@ -> 15.000
+> @numberwithdots(5000000)@ -> 5.000.000
+> @numberwithdots(@math(100*10))@ -> 1.000
