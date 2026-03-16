@@ -1,7 +1,7 @@
 # Обновления
 
 ## Выпущено: `16/03/2026`
-SnailMatic 1.99 Achatina
+SnailMatic 1.91 Achatina
 
 ### Добавлено
 
